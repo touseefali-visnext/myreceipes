@@ -1,0 +1,29 @@
+Started GET "/" for 127.0.0.1 at 2024-01-16 18:05:09 +0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/developer/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/developer/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.2ms | Allocations: 633)
+Completed 200 OK in 15ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 7354)
+
+
+Started GET "/pages" for 127.0.0.1 at 2024-01-16 18:19:04 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/pages"):
+  
+Started GET "/pages/home" for 127.0.0.1 at 2024-01-16 18:19:08 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 104)
+  Rendered layout layouts/application.html.erb (Duration: 230.5ms | Allocations: 79998)
+Completed 200 OK in 234ms (Views: 232.3ms | ActiveRecord: 0.0ms | Allocations: 80910)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-16 18:19:14 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 1529)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 1788)
+
+
