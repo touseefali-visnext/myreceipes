@@ -27,3 +27,2792 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 1788)
 
 
+Started GET "/" for 127.0.0.1 at 2024-01-17 15:26:27 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 292)
+  Rendered layout layouts/application.html.erb (Duration: 6517.1ms | Allocations: 92331)
+Completed 200 OK in 6531ms (Views: 6522.7ms | ActiveRecord: 0.0ms | Allocations: 96245)
+
+
+Started GET "/_/a0ba12d2.js" for 127.0.0.1 at 2024-01-17 15:26:34 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/a0ba12d2.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/enums.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/index.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/popper-lite.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/detectOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/applyStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/computeStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/eventListeners.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/hide.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/arrow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/offset.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/popperOffsets.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/preventOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getCompositeRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/flip.js"):
+  
+Started GET "/_/7a91f8b9.js" for 127.0.0.1 at 2024-01-17 15:26:35 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/7a91f8b9.js"):
+  
+Started GET "/_/7742d4ca.js" for 127.0.0.1 at 2024-01-17 15:26:35 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/instanceOf.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7742d4ca.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeScroll.js"):
+  
+Started GET "/_/b8df2d1e.js" for 127.0.0.1 at 2024-01-17 15:26:36 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getHTMLElementScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/b8df2d1e.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScrollBarX.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeName.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/isScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getComputedStyle.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentElement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getLayoutRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getParentNode.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/listScrollParents.js"):
+  
+Started GET "/_/084d303b.js" for 127.0.0.1 at 2024-01-17 15:26:37 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getOffsetParent.js"):
+  
+Started GET "/_/a9ca29ce.js" for 127.0.0.1 at 2024-01-17 15:26:37 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/084d303b.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/a9ca29ce.js"):
+  
+Started GET "/_/2d19854a.js" for 127.0.0.1 at 2024-01-17 15:26:37 +0500
+Started GET "/_/c7d11060.js" for 127.0.0.1 at 2024-01-17 15:26:37 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getViewportRect.js"):
+  
+Started GET "/_/bb24ce41.js" for 127.0.0.1 at 2024-01-17 15:26:37 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/2d19854a.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/c7d11060.js"):
+  
+Started GET "/_/1ba79728.js" for 127.0.0.1 at 2024-01-17 15:26:38 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/bb24ce41.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/1ba79728.js"):
+  
+Started GET "/_/6a201025.js" for 127.0.0.1 at 2024-01-17 15:26:38 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getMainAxisFromPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/computeAutoPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/6a201025.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositeVariationPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositePlacement.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-17 15:35:01 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 5558)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 6372)
+
+
+Started GET "/_/a0ba12d2.js" for 127.0.0.1 at 2024-01-17 15:35:02 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/a0ba12d2.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/index.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/popper-lite.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/detectOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/enums.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/arrow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/computeStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/flip.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/eventListeners.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/hide.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/applyStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/popperOffsets.js"):
+  
+Started GET "/_/7a91f8b9.js" for 127.0.0.1 at 2024-01-17 15:35:03 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/preventOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getCompositeRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7a91f8b9.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/offset.js"):
+  
+Started GET "/_/b8df2d1e.js" for 127.0.0.1 at 2024-01-17 15:35:03 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/instanceOf.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/b8df2d1e.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeName.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getHTMLElementScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScrollBarX.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentElement.js"):
+  
+Started GET "/_/7742d4ca.js" for 127.0.0.1 at 2024-01-17 15:35:04 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/7742d4ca.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getComputedStyle.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/isScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/listScrollParents.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getParentNode.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getOffsetParent.js"):
+  
+Started GET "/_/084d303b.js" for 127.0.0.1 at 2024-01-17 15:35:05 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/084d303b.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getViewportRect.js"):
+  
+Started GET "/_/a9ca29ce.js" for 127.0.0.1 at 2024-01-17 15:35:05 +0500
+Started GET "/_/bb24ce41.js" for 127.0.0.1 at 2024-01-17 15:35:05 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/bb24ce41.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/a9ca29ce.js"):
+  
+Started GET "/_/c7d11060.js" for 127.0.0.1 at 2024-01-17 15:35:06 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getLayoutRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/c7d11060.js"):
+  
+Started GET "/_/2d19854a.js" for 127.0.0.1 at 2024-01-17 15:35:06 +0500
+Started GET "/_/1ba79728.js" for 127.0.0.1 at 2024-01-17 15:35:06 +0500
+Started GET "/_/6a201025.js" for 127.0.0.1 at 2024-01-17 15:35:06 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/1ba79728.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/2d19854a.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/6a201025.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositePlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositeVariationPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/computeAutoPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getMainAxisFromPlacement.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-17 15:35:31 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 5543)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 6357)
+
+
+Started GET "/_/a0ba12d2.js" for 127.0.0.1 at 2024-01-17 15:35:31 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/enums.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/a0ba12d2.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/index.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/applyStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/popper-lite.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/computeStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/arrow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/eventListeners.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/detectOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/flip.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/offset.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/preventOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/hide.js"):
+  
+Started GET "/_/7742d4ca.js" for 127.0.0.1 at 2024-01-17 15:35:33 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/popperOffsets.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getCompositeRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/instanceOf.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7742d4ca.js"):
+  
+Started GET "/_/7a91f8b9.js" for 127.0.0.1 at 2024-01-17 15:35:33 +0500
+Started GET "/_/b8df2d1e.js" for 127.0.0.1 at 2024-01-17 15:35:33 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/b8df2d1e.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7a91f8b9.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getHTMLElementScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeName.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScrollBarX.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentElement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/isScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getLayoutRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/listScrollParents.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getParentNode.js"):
+  
+Started GET "/_/084d303b.js" for 127.0.0.1 at 2024-01-17 15:35:34 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getOffsetParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/084d303b.js"):
+  
+Started GET "/_/a9ca29ce.js" for 127.0.0.1 at 2024-01-17 15:35:35 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getViewportRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/a9ca29ce.js"):
+  
+Started GET "/_/2d19854a.js" for 127.0.0.1 at 2024-01-17 15:35:35 +0500
+Started GET "/_/bb24ce41.js" for 127.0.0.1 at 2024-01-17 15:35:35 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/2d19854a.js"):
+  
+Started GET "/_/1ba79728.js" for 127.0.0.1 at 2024-01-17 15:35:35 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/bb24ce41.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getComputedStyle.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getMainAxisFromPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/1ba79728.js"):
+  
+Started GET "/_/c7d11060.js" for 127.0.0.1 at 2024-01-17 15:35:35 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/c7d11060.js"):
+  
+Started GET "/_/6a201025.js" for 127.0.0.1 at 2024-01-17 15:35:36 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/6a201025.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositePlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositeVariationPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/computeAutoPlacement.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-17 15:47:16 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 5546)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 6360)
+
+
+Started GET "/_/a0ba12d2.js" for 127.0.0.1 at 2024-01-17 15:47:16 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/a0ba12d2.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/index.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/enums.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/popper-lite.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/applyStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/arrow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/computeStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/eventListeners.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/flip.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/detectOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/hide.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/popperOffsets.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/preventOverflow.js"):
+  
+Started GET "/_/7a91f8b9.js" for 127.0.0.1 at 2024-01-17 15:47:17 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getCompositeRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7a91f8b9.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/offset.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/instanceOf.js"):
+  
+Started GET "/_/7742d4ca.js" for 127.0.0.1 at 2024-01-17 15:47:18 +0500
+Started GET "/_/b8df2d1e.js" for 127.0.0.1 at 2024-01-17 15:47:18 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/b8df2d1e.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7742d4ca.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getHTMLElementScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeName.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScrollBarX.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/isScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getComputedStyle.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentElement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/listScrollParents.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getParentNode.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getLayoutRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getOffsetParent.js"):
+  
+Started GET "/_/084d303b.js" for 127.0.0.1 at 2024-01-17 15:47:20 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/084d303b.js"):
+  
+Started GET "/_/a9ca29ce.js" for 127.0.0.1 at 2024-01-17 15:47:20 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getViewportRect.js"):
+  
+Started GET "/_/bb24ce41.js" for 127.0.0.1 at 2024-01-17 15:47:20 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/a9ca29ce.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/bb24ce41.js"):
+  
+Started GET "/_/c7d11060.js" for 127.0.0.1 at 2024-01-17 15:47:20 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/c7d11060.js"):
+  
+Started GET "/_/2d19854a.js" for 127.0.0.1 at 2024-01-17 15:47:20 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getMainAxisFromPlacement.js"):
+  
+Started GET "/_/1ba79728.js" for 127.0.0.1 at 2024-01-17 15:47:20 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/1ba79728.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/2d19854a.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositePlacement.js"):
+  
+Started GET "/_/6a201025.js" for 127.0.0.1 at 2024-01-17 15:47:21 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/6a201025.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/computeAutoPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositeVariationPlacement.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-17 16:12:24 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 5164)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 5429)
+
+
+Started GET "/_/a0ba12d2.js" for 127.0.0.1 at 2024-01-17 16:12:24 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/a0ba12d2.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/index.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/popper-lite.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/enums.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/applyStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/detectOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/flip.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/computeStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/eventListeners.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/hide.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/offset.js"):
+  
+Started GET "/_/7a91f8b9.js" for 127.0.0.1 at 2024-01-17 16:12:26 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/popperOffsets.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/preventOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getCompositeRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7a91f8b9.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/instanceOf.js"):
+  
+Started GET "/_/7742d4ca.js" for 127.0.0.1 at 2024-01-17 16:12:26 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/arrow.js"):
+  
+Started GET "/_/b8df2d1e.js" for 127.0.0.1 at 2024-01-17 16:12:26 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/b8df2d1e.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7742d4ca.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getHTMLElementScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeName.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentElement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScrollBarX.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/isScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getComputedStyle.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getLayoutRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/listScrollParents.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getParentNode.js"):
+  
+Started GET "/_/084d303b.js" for 127.0.0.1 at 2024-01-17 16:12:28 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/084d303b.js"):
+  
+Started GET "/_/a9ca29ce.js" for 127.0.0.1 at 2024-01-17 16:12:28 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getViewportRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/a9ca29ce.js"):
+  
+Started GET "/_/bb24ce41.js" for 127.0.0.1 at 2024-01-17 16:12:28 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getOffsetParent.js"):
+  
+Started GET "/_/c7d11060.js" for 127.0.0.1 at 2024-01-17 16:12:29 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/bb24ce41.js"):
+  
+Started GET "/_/1ba79728.js" for 127.0.0.1 at 2024-01-17 16:12:29 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/c7d11060.js"):
+  
+Started GET "/_/6a201025.js" for 127.0.0.1 at 2024-01-17 16:12:29 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getMainAxisFromPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/6a201025.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/1ba79728.js"):
+  
+Started GET "/_/2d19854a.js" for 127.0.0.1 at 2024-01-17 16:12:29 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/2d19854a.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositeVariationPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/computeAutoPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositePlacement.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-17 16:20:26 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 102)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 138)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 5805)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms | Allocations: 6620)
+
+
+Started GET "/_/a0ba12d2.js" for 127.0.0.1 at 2024-01-17 16:20:26 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/index.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/a0ba12d2.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/popper-lite.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/applyStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/enums.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/arrow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/computeStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/hide.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/eventListeners.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/flip.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/detectOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/popperOffsets.js"):
+  
+Started GET "/_/7a91f8b9.js" for 127.0.0.1 at 2024-01-17 16:20:28 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getCompositeRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7a91f8b9.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/offset.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/instanceOf.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindow.js"):
+  
+Started GET "/_/7742d4ca.js" for 127.0.0.1 at 2024-01-17 16:20:28 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/preventOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7742d4ca.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeScroll.js"):
+  
+Started GET "/_/b8df2d1e.js" for 127.0.0.1 at 2024-01-17 16:20:29 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getHTMLElementScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/b8df2d1e.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScrollBarX.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeName.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/isScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getComputedStyle.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getLayoutRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/listScrollParents.js"):
+  
+Started GET "/_/084d303b.js" for 127.0.0.1 at 2024-01-17 16:20:30 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getParentNode.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/084d303b.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentElement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getViewportRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentRect.js"):
+  
+Started GET "/_/a9ca29ce.js" for 127.0.0.1 at 2024-01-17 16:20:30 +0500
+Started GET "/_/bb24ce41.js" for 127.0.0.1 at 2024-01-17 16:20:30 +0500
+Started GET "/_/2d19854a.js" for 127.0.0.1 at 2024-01-17 16:20:30 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/a9ca29ce.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/bb24ce41.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/2d19854a.js"):
+  
+Started GET "/_/c7d11060.js" for 127.0.0.1 at 2024-01-17 16:20:30 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/c7d11060.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getMainAxisFromPlacement.js"):
+  
+Started GET "/_/1ba79728.js" for 127.0.0.1 at 2024-01-17 16:20:31 +0500
+Started GET "/_/6a201025.js" for 127.0.0.1 at 2024-01-17 16:20:31 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/6a201025.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/1ba79728.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getOffsetParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositePlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/computeAutoPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositeVariationPlacement.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-17 16:33:19 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 102)
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 1276)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 6928)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 7741)
+
+
+  
+ActionView::Template::Error (undefined method `linl_to' for #<ActionView::Base:0x0000000003a660>):
+    1: <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    2:   <%= linl_to "MyRecipes", root_path, class: "navbar-brand", id: "logo" %>
+    3:   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    4:     <span class="navbar-toggler-icon"></span>
+    5:   </button>
+  
+app/views/layouts/_navigation.html.erb:2
+app/views/layouts/application.html.erb:14
+Started GET "/" for 127.0.0.1 at 2024-01-17 16:33:39 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 103)
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 5790)
+Completed 200 OK in 23ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 6609)
+
+
+Started GET "/_/a0ba12d2.js" for 127.0.0.1 at 2024-01-17 16:33:39 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/index.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/popper-lite.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/enums.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/a0ba12d2.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/applyStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/arrow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/flip.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/computeStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/hide.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/eventListeners.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/offset.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/detectOverflow.js"):
+  
+Started GET "/_/7a91f8b9.js" for 127.0.0.1 at 2024-01-17 16:33:41 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/7a91f8b9.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/preventOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getCompositeRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/instanceOf.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindow.js"):
+  
+Started GET "/_/b8df2d1e.js" for 127.0.0.1 at 2024-01-17 16:33:42 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/b8df2d1e.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/popperOffsets.js"):
+  
+Started GET "/_/7742d4ca.js" for 127.0.0.1 at 2024-01-17 16:33:42 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7742d4ca.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getHTMLElementScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScrollBarX.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getComputedStyle.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeName.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/isScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentElement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/listScrollParents.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getParentNode.js"):
+  
+Started GET "/_/084d303b.js" for 127.0.0.1 at 2024-01-17 16:33:43 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/084d303b.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getLayoutRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getViewportRect.js"):
+  
+Started GET "/_/bb24ce41.js" for 127.0.0.1 at 2024-01-17 16:33:44 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentRect.js"):
+  
+Started GET "/_/2d19854a.js" for 127.0.0.1 at 2024-01-17 16:33:44 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getOffsetParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/bb24ce41.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/2d19854a.js"):
+  
+Started GET "/_/c7d11060.js" for 127.0.0.1 at 2024-01-17 16:33:44 +0500
+Started GET "/_/a9ca29ce.js" for 127.0.0.1 at 2024-01-17 16:33:44 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/c7d11060.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/a9ca29ce.js"):
+  
+Started GET "/_/1ba79728.js" for 127.0.0.1 at 2024-01-17 16:33:44 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/1ba79728.js"):
+  
+Started GET "/_/6a201025.js" for 127.0.0.1 at 2024-01-17 16:33:44 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getMainAxisFromPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/6a201025.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositePlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/computeAutoPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositeVariationPlacement.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-17 16:38:17 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 11475.5ms | Allocations: 70402)
+Completed 200 OK in 11478ms (Views: 11476.4ms | ActiveRecord: 0.0ms | Allocations: 70666)
+
+
+Started GET "/_/a0ba12d2.js" for 127.0.0.1 at 2024-01-17 16:38:29 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/enums.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/a0ba12d2.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/index.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/popper-lite.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/applyStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/computeStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/arrow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/eventListeners.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/hide.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/flip.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/preventOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/popperOffsets.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/offset.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getCompositeRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/instanceOf.js"):
+  
+Started GET "/_/7a91f8b9.js" for 127.0.0.1 at 2024-01-17 16:38:31 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/7a91f8b9.js"):
+  
+Started GET "/_/b8df2d1e.js" for 127.0.0.1 at 2024-01-17 16:38:31 +0500
+Started GET "/_/7742d4ca.js" for 127.0.0.1 at 2024-01-17 16:38:31 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/detectOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7742d4ca.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/b8df2d1e.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getHTMLElementScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeName.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScrollBarX.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/isScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentElement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getLayoutRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getComputedStyle.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getScrollParent.js"):
+  
+Started GET "/_/084d303b.js" for 127.0.0.1 at 2024-01-17 16:38:32 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getParentNode.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getOffsetParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getViewportRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/084d303b.js"):
+  
+Started GET "/_/a9ca29ce.js" for 127.0.0.1 at 2024-01-17 16:38:33 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentRect.js"):
+  
+Started GET "/_/bb24ce41.js" for 127.0.0.1 at 2024-01-17 16:38:33 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/a9ca29ce.js"):
+  
+Started GET "/_/2d19854a.js" for 127.0.0.1 at 2024-01-17 16:38:33 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/bb24ce41.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/2d19854a.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/listScrollParents.js"):
+  
+Started GET "/_/c7d11060.js" for 127.0.0.1 at 2024-01-17 16:38:33 +0500
+Started GET "/_/6a201025.js" for 127.0.0.1 at 2024-01-17 16:38:34 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/c7d11060.js"):
+  
+Started GET "/_/1ba79728.js" for 127.0.0.1 at 2024-01-17 16:38:34 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/1ba79728.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/6a201025.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositePlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositeVariationPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/computeAutoPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getMainAxisFromPlacement.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-17 16:38:42 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 11631.0ms | Allocations: 70323)
+Completed 200 OK in 11632ms (Views: 11631.5ms | ActiveRecord: 0.0ms | Allocations: 70586)
+
+
+Started GET "/_/a0ba12d2.js" for 127.0.0.1 at 2024-01-17 16:38:54 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/a0ba12d2.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/index.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/popper-lite.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/applyStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/enums.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/computeStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/arrow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/flip.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/eventListeners.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/hide.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/popperOffsets.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/offset.js"):
+  
+Started GET "/_/7a91f8b9.js" for 127.0.0.1 at 2024-01-17 16:38:55 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/detectOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7a91f8b9.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getCompositeRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/preventOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/instanceOf.js"):
+  
+Started GET "/_/7742d4ca.js" for 127.0.0.1 at 2024-01-17 16:38:56 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/7742d4ca.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getHTMLElementScroll.js"):
+  
+Started GET "/_/b8df2d1e.js" for 127.0.0.1 at 2024-01-17 16:38:56 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/b8df2d1e.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeName.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScrollBarX.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentElement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getComputedStyle.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getLayoutRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/listScrollParents.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getParentNode.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getOffsetParent.js"):
+  
+Started GET "/_/a9ca29ce.js" for 127.0.0.1 at 2024-01-17 16:38:57 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/isScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getViewportRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/a9ca29ce.js"):
+  
+Started GET "/_/bb24ce41.js" for 127.0.0.1 at 2024-01-17 16:38:58 +0500
+Started GET "/_/2d19854a.js" for 127.0.0.1 at 2024-01-17 16:38:58 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/bb24ce41.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/2d19854a.js"):
+  
+Started GET "/_/c7d11060.js" for 127.0.0.1 at 2024-01-17 16:38:58 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/c7d11060.js"):
+  
+Started GET "/_/084d303b.js" for 127.0.0.1 at 2024-01-17 16:38:58 +0500
+Started GET "/_/6a201025.js" for 127.0.0.1 at 2024-01-17 16:38:58 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getMainAxisFromPlacement.js"):
+  
+Started GET "/_/1ba79728.js" for 127.0.0.1 at 2024-01-17 16:38:58 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositePlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/084d303b.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/6a201025.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/1ba79728.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/computeAutoPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositeVariationPlacement.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-17 16:40:53 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 11068.1ms | Allocations: 70362)
+Completed 200 OK in 11069ms (Views: 11068.6ms | ActiveRecord: 0.0ms | Allocations: 70625)
+
+
+Started GET "/_/a0ba12d2.js" for 127.0.0.1 at 2024-01-17 16:41:04 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/popper-lite.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/a0ba12d2.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/enums.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/index.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/applyStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/arrow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/computeStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/eventListeners.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/hide.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/flip.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/detectOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/popperOffsets.js"):
+  
+Started GET "/_/7a91f8b9.js" for 127.0.0.1 at 2024-01-17 16:41:05 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/preventOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getCompositeRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7a91f8b9.js"):
+  
+Started GET "/_/7742d4ca.js" for 127.0.0.1 at 2024-01-17 16:41:06 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/instanceOf.js"):
+  
+Started GET "/_/b8df2d1e.js" for 127.0.0.1 at 2024-01-17 16:41:06 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/offset.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7742d4ca.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/b8df2d1e.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getHTMLElementScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentElement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScrollBarX.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeName.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/isScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getComputedStyle.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/listScrollParents.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getLayoutRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getParentNode.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getOffsetParent.js"):
+  
+Started GET "/_/a9ca29ce.js" for 127.0.0.1 at 2024-01-17 16:41:07 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getViewportRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/a9ca29ce.js"):
+  
+Started GET "/_/bb24ce41.js" for 127.0.0.1 at 2024-01-17 16:41:08 +0500
+Started GET "/_/084d303b.js" for 127.0.0.1 at 2024-01-17 16:41:08 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/084d303b.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/bb24ce41.js"):
+  
+Started GET "/_/c7d11060.js" for 127.0.0.1 at 2024-01-17 16:41:08 +0500
+Started GET "/_/1ba79728.js" for 127.0.0.1 at 2024-01-17 16:41:08 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/c7d11060.js"):
+  
+Started GET "/_/6a201025.js" for 127.0.0.1 at 2024-01-17 16:41:08 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/1ba79728.js"):
+  
+Started GET "/_/2d19854a.js" for 127.0.0.1 at 2024-01-17 16:41:08 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getMainAxisFromPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/6a201025.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/2d19854a.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositePlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositeVariationPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/computeAutoPlacement.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-17 16:41:21 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 5226)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 5488)
+
+
+Started GET "/_/a0ba12d2.js" for 127.0.0.1 at 2024-01-17 16:41:21 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/index.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/a0ba12d2.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/enums.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/popper-lite.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/applyStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/computeStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/hide.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/arrow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/flip.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/eventListeners.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/popperOffsets.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/preventOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/offset.js"):
+  
+Started GET "/_/7a91f8b9.js" for 127.0.0.1 at 2024-01-17 16:41:23 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getCompositeRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7a91f8b9.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/detectOverflow.js"):
+  
+Started GET "/_/7742d4ca.js" for 127.0.0.1 at 2024-01-17 16:41:23 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/7742d4ca.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/instanceOf.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getHTMLElementScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeName.js"):
+  
+Started GET "/_/b8df2d1e.js" for 127.0.0.1 at 2024-01-17 16:41:24 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/b8df2d1e.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentElement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScrollBarX.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getComputedStyle.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/isScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/listScrollParents.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getParentNode.js"):
+  
+Started GET "/_/084d303b.js" for 127.0.0.1 at 2024-01-17 16:41:25 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getOffsetParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/084d303b.js"):
+  
+Started GET "/_/a9ca29ce.js" for 127.0.0.1 at 2024-01-17 16:41:25 +0500
+Started GET "/_/bb24ce41.js" for 127.0.0.1 at 2024-01-17 16:41:25 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getViewportRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/a9ca29ce.js"):
+  
+Started GET "/_/2d19854a.js" for 127.0.0.1 at 2024-01-17 16:41:25 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/bb24ce41.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/2d19854a.js"):
+  
+Started GET "/_/c7d11060.js" for 127.0.0.1 at 2024-01-17 16:41:26 +0500
+Started GET "/_/1ba79728.js" for 127.0.0.1 at 2024-01-17 16:41:26 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/c7d11060.js"):
+  
+Started GET "/_/6a201025.js" for 127.0.0.1 at 2024-01-17 16:41:26 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/1ba79728.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getLayoutRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/6a201025.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositePlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositeVariationPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/computeAutoPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getMainAxisFromPlacement.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-17 16:42:13 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 102)
+  Rendered layouts/_navigation.html.erb (Duration: 0.9ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 5858)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 6670)
+
+
+Started GET "/_/a0ba12d2.js" for 127.0.0.1 at 2024-01-17 16:42:13 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/index.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/enums.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/a0ba12d2.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/popper-lite.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/applyStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/computeStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/arrow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/flip.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/eventListeners.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/hide.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/offset.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/preventOverflow.js"):
+  
+Started GET "/_/7a91f8b9.js" for 127.0.0.1 at 2024-01-17 16:42:15 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/detectOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7a91f8b9.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getCompositeRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/instanceOf.js"):
+  
+Started GET "/_/b8df2d1e.js" for 127.0.0.1 at 2024-01-17 16:42:15 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/popperOffsets.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/b8df2d1e.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeScroll.js"):
+  
+Started GET "/_/7742d4ca.js" for 127.0.0.1 at 2024-01-17 16:42:16 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/7742d4ca.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getHTMLElementScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScrollBarX.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentElement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/isScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeName.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getLayoutRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getComputedStyle.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getParentNode.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/listScrollParents.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getViewportRect.js"):
+  
+Started GET "/_/084d303b.js" for 127.0.0.1 at 2024-01-17 16:42:17 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getOffsetParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/084d303b.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentRect.js"):
+  
+Started GET "/_/a9ca29ce.js" for 127.0.0.1 at 2024-01-17 16:42:17 +0500
+Started GET "/_/2d19854a.js" for 127.0.0.1 at 2024-01-17 16:42:17 +0500
+Started GET "/_/c7d11060.js" for 127.0.0.1 at 2024-01-17 16:42:17 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/2d19854a.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/a9ca29ce.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/c7d11060.js"):
+  
+Started GET "/_/bb24ce41.js" for 127.0.0.1 at 2024-01-17 16:42:18 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/bb24ce41.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getMainAxisFromPlacement.js"):
+  
+Started GET "/_/6a201025.js" for 127.0.0.1 at 2024-01-17 16:42:18 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/6a201025.js"):
+  
+Started GET "/_/1ba79728.js" for 127.0.0.1 at 2024-01-17 16:42:18 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositeVariationPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/1ba79728.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/computeAutoPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositePlacement.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-17 16:42:23 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 102)
+  Rendered layouts/_navigation.html.erb (Duration: 1.2ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 5852)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 6665)
+
+
+Started GET "/_/a0ba12d2.js" for 127.0.0.1 at 2024-01-17 16:42:24 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/a0ba12d2.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/index.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/enums.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/applyStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/popper-lite.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/arrow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/computeStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/flip.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/hide.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/eventListeners.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/offset.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/popperOffsets.js"):
+  
+Started GET "/_/7a91f8b9.js" for 127.0.0.1 at 2024-01-17 16:42:25 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/preventOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7a91f8b9.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getCompositeRect.js"):
+  
+Started GET "/_/7742d4ca.js" for 127.0.0.1 at 2024-01-17 16:42:25 +0500
+Started GET "/_/b8df2d1e.js" for 127.0.0.1 at 2024-01-17 16:42:25 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/detectOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/instanceOf.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7742d4ca.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/b8df2d1e.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeName.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getHTMLElementScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentElement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScrollBarX.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getLayoutRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/isScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/listScrollParents.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getScrollParent.js"):
+  
+Started GET "/_/084d303b.js" for 127.0.0.1 at 2024-01-17 16:42:27 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getParentNode.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getOffsetParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/084d303b.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getViewportRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentRect.js"):
+  
+Started GET "/_/a9ca29ce.js" for 127.0.0.1 at 2024-01-17 16:42:27 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/a9ca29ce.js"):
+  
+Started GET "/_/bb24ce41.js" for 127.0.0.1 at 2024-01-17 16:42:28 +0500
+Started GET "/_/2d19854a.js" for 127.0.0.1 at 2024-01-17 16:42:28 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/bb24ce41.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/2d19854a.js"):
+  
+Started GET "/_/1ba79728.js" for 127.0.0.1 at 2024-01-17 16:42:28 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getMainAxisFromPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/1ba79728.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getComputedStyle.js"):
+  
+Started GET "/_/6a201025.js" for 127.0.0.1 at 2024-01-17 16:42:28 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/6a201025.js"):
+  
+Started GET "/_/c7d11060.js" for 127.0.0.1 at 2024-01-17 16:42:28 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositePlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/c7d11060.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/computeAutoPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositeVariationPlacement.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-17 16:42:33 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 102)
+  Rendered layouts/_navigation.html.erb (Duration: 0.9ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 5821)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 6634)
+
+
+Started GET "/_/a0ba12d2.js" for 127.0.0.1 at 2024-01-17 16:42:33 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/index.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/a0ba12d2.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/enums.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/applyStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/popper-lite.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/arrow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/computeStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/eventListeners.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/flip.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/hide.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/offset.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/popperOffsets.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/preventOverflow.js"):
+  
+Started GET "/_/7a91f8b9.js" for 127.0.0.1 at 2024-01-17 16:42:34 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getCompositeRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7a91f8b9.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/instanceOf.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/detectOverflow.js"):
+  
+Started GET "/_/b8df2d1e.js" for 127.0.0.1 at 2024-01-17 16:42:35 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/b8df2d1e.js"):
+  
+Started GET "/_/7742d4ca.js" for 127.0.0.1 at 2024-01-17 16:42:35 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getHTMLElementScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7742d4ca.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeName.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScrollBarX.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/isScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getComputedStyle.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getLayoutRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/listScrollParents.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getParentNode.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getOffsetParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentElement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getViewportRect.js"):
+  
+Started GET "/_/084d303b.js" for 127.0.0.1 at 2024-01-17 16:42:36 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/084d303b.js"):
+  
+Started GET "/_/bb24ce41.js" for 127.0.0.1 at 2024-01-17 16:42:36 +0500
+Started GET "/_/a9ca29ce.js" for 127.0.0.1 at 2024-01-17 16:42:36 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/bb24ce41.js"):
+  
+Started GET "/_/c7d11060.js" for 127.0.0.1 at 2024-01-17 16:42:37 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/a9ca29ce.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/c7d11060.js"):
+  
+Started GET "/_/1ba79728.js" for 127.0.0.1 at 2024-01-17 16:42:37 +0500
+Started GET "/_/6a201025.js" for 127.0.0.1 at 2024-01-17 16:42:37 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getMainAxisFromPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/1ba79728.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/6a201025.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositePlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositeVariationPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/computeAutoPlacement.js"):
+  
+Started GET "/_/2d19854a.js" for 127.0.0.1 at 2024-01-17 16:42:37 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/2d19854a.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-17 16:44:10 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 11375.5ms | Allocations: 70377)
+Completed 200 OK in 11383ms (Views: 11382.3ms | ActiveRecord: 0.0ms | Allocations: 70641)
+
+
+Started GET "/_/a0ba12d2.js" for 127.0.0.1 at 2024-01-17 16:44:21 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/a0ba12d2.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/index.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/enums.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/popper-lite.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/applyStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/arrow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/computeStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/eventListeners.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/hide.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/flip.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/offset.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/popperOffsets.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/detectOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getCompositeRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/preventOverflow.js"):
+  
+Started GET "/_/7742d4ca.js" for 127.0.0.1 at 2024-01-17 16:44:23 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/instanceOf.js"):
+  
+Started GET "/_/7a91f8b9.js" for 127.0.0.1 at 2024-01-17 16:44:23 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7742d4ca.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7a91f8b9.js"):
+  
+Started GET "/_/b8df2d1e.js" for 127.0.0.1 at 2024-01-17 16:44:23 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/b8df2d1e.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getHTMLElementScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScrollBarX.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeName.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentElement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getLayoutRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/isScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getParentNode.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/listScrollParents.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getScrollParent.js"):
+  
+Started GET "/_/084d303b.js" for 127.0.0.1 at 2024-01-17 16:44:25 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getComputedStyle.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/084d303b.js"):
+  
+Started GET "/_/a9ca29ce.js" for 127.0.0.1 at 2024-01-17 16:44:25 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/a9ca29ce.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getViewportRect.js"):
+  
+Started GET "/_/bb24ce41.js" for 127.0.0.1 at 2024-01-17 16:44:25 +0500
+Started GET "/_/c7d11060.js" for 127.0.0.1 at 2024-01-17 16:44:25 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/bb24ce41.js"):
+  
+Started GET "/_/1ba79728.js" for 127.0.0.1 at 2024-01-17 16:44:25 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getOffsetParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/c7d11060.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getMainAxisFromPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/1ba79728.js"):
+  
+Started GET "/_/6a201025.js" for 127.0.0.1 at 2024-01-17 16:44:25 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/6a201025.js"):
+  
+Started GET "/_/2d19854a.js" for 127.0.0.1 at 2024-01-17 16:44:26 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/2d19854a.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositePlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/computeAutoPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositeVariationPlacement.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-17 16:54:04 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 5234)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 5496)
+
+
+Started GET "/_/a0ba12d2.js" for 127.0.0.1 at 2024-01-17 16:54:04 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/a0ba12d2.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/index.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/enums.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/popper-lite.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/applyStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/arrow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/computeStyles.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/eventListeners.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/flip.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/hide.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/offset.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/detectOverflow.js"):
+  
+Started GET "/_/7a91f8b9.js" for 127.0.0.1 at 2024-01-17 16:54:06 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/preventOverflow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getCompositeRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7a91f8b9.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/instanceOf.js"):
+  
+Started GET "/_/7742d4ca.js" for 127.0.0.1 at 2024-01-17 16:54:06 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/modifiers/popperOffsets.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/7742d4ca.js"):
+  
+Started GET "/_/b8df2d1e.js" for 127.0.0.1 at 2024-01-17 16:54:06 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/b8df2d1e.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindow.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getWindowScrollBarX.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentElement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getNodeName.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getHTMLElementScroll.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getComputedStyle.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/listScrollParents.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/isScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getLayoutRect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getParentNode.js"):
+  
+Started GET "/_/084d303b.js" for 127.0.0.1 at 2024-01-17 16:54:08 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getOffsetParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/084d303b.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getViewportRect.js"):
+  
+Started GET "/_/a9ca29ce.js" for 127.0.0.1 at 2024-01-17 16:54:08 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getDocumentRect.js"):
+  
+Started GET "/_/bb24ce41.js" for 127.0.0.1 at 2024-01-17 16:54:08 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/a9ca29ce.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/dom-utils/getScrollParent.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/bb24ce41.js"):
+  
+Started GET "/_/2d19854a.js" for 127.0.0.1 at 2024-01-17 16:54:09 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/2d19854a.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getMainAxisFromPlacement.js"):
+  
+Started GET "/_/c7d11060.js" for 127.0.0.1 at 2024-01-17 16:54:09 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/c7d11060.js"):
+  
+Started GET "/_/1ba79728.js" for 127.0.0.1 at 2024-01-17 16:54:09 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositePlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_/1ba79728.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/getOppositeVariationPlacement.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/utils/computeAutoPlacement.js"):
+  
+Started GET "/_/6a201025.js" for 127.0.0.1 at 2024-01-17 16:54:09 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/_/6a201025.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-17 17:01:19 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 31.9ms | Allocations: 19268)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.0ms | Allocations: 19794)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-17 17:01:21 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 5247)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.0ms | Allocations: 5511)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-17 17:01:23 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 5223)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 5487)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-17 17:01:24 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 5220)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 5484)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-17 17:01:25 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 5250)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 5514)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-17 17:02:14 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 102)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 138)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 5733)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 6545)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-17 17:03:30 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 102)
+  Rendered layouts/_navigation.html.erb (Duration: 0.9ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 5855)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 6668)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-17 17:03:54 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 102)
+  Rendered layouts/_navigation.html.erb (Duration: 1.3ms | Allocations: 237)
+  Rendered layout layouts/application.html.erb (Duration: 27.5ms | Allocations: 5841)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms | Allocations: 6656)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-17 17:09:52 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 176)
+  Rendered layouts/_navigation.html.erb (Duration: 1.9ms | Allocations: 226)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 5904)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 6721)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-17 17:11:44 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 172)
+  Rendered layouts/_navigation.html.erb (Duration: 0.9ms | Allocations: 227)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 5891)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 6707)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-17 17:12:58 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 173)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 12040.3ms | Allocations: 71047)
+Completed 200 OK in 12046ms (Views: 12043.7ms | ActiveRecord: 0.0ms | Allocations: 71863)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-17 17:21:53 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 11720.3ms | Allocations: 72037)
+Completed 200 OK in 11721ms (Views: 11720.8ms | ActiveRecord: 0.0ms | Allocations: 72301)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-17 17:23:28 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 11076.2ms | Allocations: 71563)
+Completed 200 OK in 11077ms (Views: 11076.6ms | ActiveRecord: 0.0ms | Allocations: 71826)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-17 17:25:03 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 5605)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 5868)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-17 17:27:10 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 178)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 11246.6ms | Allocations: 72265)
+Completed 200 OK in 11249ms (Views: 11248.2ms | ActiveRecord: 0.0ms | Allocations: 73082)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-17 17:28:54 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 11091.8ms | Allocations: 71675)
+Completed 200 OK in 11093ms (Views: 11092.5ms | ActiveRecord: 0.0ms | Allocations: 71939)
+
+
+Started GET "/" for ::1 at 2024-01-17 17:34:37 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 5442)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 5705)
+
+
+Started GET "/" for ::1 at 2024-01-17 17:36:06 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 12154.2ms | Allocations: 71661)
+Completed 200 OK in 12156ms (Views: 12155.0ms | ActiveRecord: 0.0ms | Allocations: 71924)
+
+
+Started GET "/" for ::1 at 2024-01-17 17:36:51 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 11749.0ms | Allocations: 71653)
+Completed 200 OK in 11750ms (Views: 11749.8ms | ActiveRecord: 0.0ms | Allocations: 71916)
+
+
+Started GET "/" for ::1 at 2024-01-17 17:37:20 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 12000.1ms | Allocations: 71688)
+Completed 200 OK in 12003ms (Views: 12001.7ms | ActiveRecord: 0.0ms | Allocations: 71952)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-17 17:38:25 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 5539)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 5802)
+
+
+Started GET "/" for ::1 at 2024-01-17 17:43:49 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 203)
+  Rendered layouts/_navigation.html.erb (Duration: 1.2ms | Allocations: 226)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 6195)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 7011)
+
+
+Started GET "/" for ::1 at 2024-01-17 17:45:02 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.0ms | Allocations: 198)
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 226)
+  Rendered layout layouts/application.html.erb (Duration: 43.5ms | Allocations: 6178)
+Completed 200 OK in 54ms (Views: 49.5ms | ActiveRecord: 0.0ms | Allocations: 6992)
+
+
