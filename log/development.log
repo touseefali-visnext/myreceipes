@@ -2816,3 +2816,25 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 54ms (Views: 49.5ms | ActiveRecord: 0.0ms | Allocations: 6992)
 
 
+Started GET "/" for 127.0.0.1 at 2024-01-17 18:27:20 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 197)
+  Rendered layouts/_navigation.html.erb (Duration: 1.3ms | Allocations: 226)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 6511)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 7325)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-17 18:29:13 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 64)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 11912.8ms | Allocations: 71800)
+Completed 200 OK in 11914ms (Views: 11913.4ms | ActiveRecord: 0.0ms | Allocations: 72064)
+
+
