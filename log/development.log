@@ -2944,3 +2944,54 @@ Migrating to AddChefIdToRecipes (20240118071428)
   [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "created_at", "updated_at", "chef_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Vegetable Saute"], ["description", "Lots of vegetables cooked in oil for 15 minutes"], ["created_at", "2024-01-18 07:25:43.265648"], ["updated_at", "2024-01-18 07:25:43.265648"], ["chef_id", 2]]
   [1m[36mTRANSACTION (17.9ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Started GET "/recipes" for ::1 at 2024-01-18 13:22:44 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 101)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 240)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 31.5ms | Allocations: 20464)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.0ms | Allocations: 21372)
+
+
+Started GET "/recipes" for ::1 at 2024-01-18 13:22:59 +0500
+Processing by RecipesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 102)
+  Rendered layouts/_navigation.html.erb (Duration: 1.5ms | Allocations: 233)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 6383)
+Completed 200 OK in 25ms (Views: 23.3ms | ActiveRecord: 0.0ms | Allocations: 7196)
+
+
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Started GET "/recipes" for ::1 at 2024-01-18 13:43:03 +0500
+Processing by RecipesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:3
+  Rendered recipes/index.html.erb within layouts/application (Duration: 15.8ms | Allocations: 5670)
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 243)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 59.7ms | Allocations: 25942)
+Completed 200 OK in 70ms (Views: 60.6ms | ActiveRecord: 1.2ms | Allocations: 28740)
+
+
+Started GET "/recipes" for ::1 at 2024-01-18 13:49:34 +0500
+Processing by RecipesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (Duration: 12.0ms | Allocations: 1054)
+  Rendered layouts/_navigation.html.erb (Duration: 2.2ms | Allocations: 232)
+  Rendered layouts/_footer.html.erb (Duration: 1.9ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 70.0ms | Allocations: 7345)
+Completed 200 OK in 81ms (Views: 75.4ms | ActiveRecord: 1.7ms | Allocations: 8173)
+
+
