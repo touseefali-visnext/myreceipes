@@ -2916,3 +2916,31 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 1642ms (Views: 1633.0ms | ActiveRecord: 0.0ms | Allocations: 69477)
 
 
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddChefIdToRecipes (20240118071428)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "recipes" ADD "chef_id" integer[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20240118071428"]]
+  [1m[36mTRANSACTION (12.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChef Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", "john@example.com"], ["LIMIT", 1]]
+  [1m[36mChef Create (1.1ms)[0m  [1m[32mINSERT INTO "chefs" ("chefname", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["chefname", "John"], ["email", "john@example.com"], ["created_at", "2024-01-18 07:19:39.989278"], ["updated_at", "2024-01-18 07:19:39.989278"]]
+  [1m[36mTRANSACTION (18.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChef Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", "touseef@example.com"], ["LIMIT", 1]]
+  [1m[36mChef Create (0.8ms)[0m  [1m[32mINSERT INTO "chefs" ("chefname", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["chefname", "Touseef"], ["email", "touseef@example.com"], ["created_at", "2024-01-18 07:20:10.430219"], ["updated_at", "2024-01-18 07:20:10.430219"]]
+  [1m[36mTRANSACTION (17.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs"[0m
+  [1m[36mChef Load (0.6ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Create (0.8ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "created_at", "updated_at", "chef_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "italian vegetable"], ["description", "Amazing italian vegetables cooked for 20 minutes"], ["created_at", "2024-01-18 07:23:14.394736"], ["updated_at", "2024-01-18 07:23:14.394736"], ["chef_id", 2]]
+  [1m[36mTRANSACTION (16.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."chef_id" = ?[0m  [["chef_id", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "created_at", "updated_at", "chef_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Vegetable Saute"], ["description", "Lots of vegetables cooked in oil for 15 minutes"], ["created_at", "2024-01-18 07:25:43.265648"], ["updated_at", "2024-01-18 07:25:43.265648"], ["chef_id", 2]]
+  [1m[36mTRANSACTION (17.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
