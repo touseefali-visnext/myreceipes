@@ -8,10 +8,14 @@ class ChefsController < ApplicationController
         @chef = Chef.new(chef_params)
         if @chef.save
             flash[:success] = "Welcome #{@chef.chefname} to MyRecipes App!"
-            redirect_to chefs_path(@chef)
+            redirect_to chef_path(@chef)
         else
             render :new, status: :unprocessable_entity
         end
+    end
+
+    def show
+        @chef = Chef.find(params[:id])
     end
 
     private
