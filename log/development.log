@@ -7532,3 +7532,183 @@ Processing by ChefsController#show as HTML
 Completed 200 OK in 24ms (Views: 20.7ms | ActiveRecord: 0.3ms | Allocations: 7636)
 
 
+Started GET "/chefs/2" for ::1 at 2024-01-19 17:04:47 +0500
+Processing by ChefsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:18:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 14)
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."chef_id" = ?[0m  [["chef_id", 2]]
+  ↳ app/views/recipes/_recipe.html.erb:1
+  Rendered recipes/_recipe.html.erb (Duration: 6.7ms | Allocations: 3769)
+  Rendered chefs/show.html.erb within layouts/application (Duration: 10.0ms | Allocations: 5422)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 39.0ms | Allocations: 25209)
+Completed 200 OK in 49ms (Views: 40.3ms | ActiveRecord: 0.5ms | Allocations: 29683)
+
+
+Started GET "/chefs/2/edit" for ::1 at 2024-01-19 17:04:52 +0500
+Processing by ChefsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:22:in `edit'
+Completed 406 Not Acceptable in 4ms (ActiveRecord: 0.2ms | Allocations: 1261)
+
+
+  
+ActionController::MissingExactTemplate (ChefsController#edit is missing a template for request formats: text/html):
+  
+actionpack (7.0.8) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.8) lib/action_controller/metal/basic_implicit_render.rb:7:in `send_action'
+actionpack (7.0.8) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/rendering.rb:165:in `process_action'
+actionpack (7.0.8) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.8) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.8) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.8) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.8) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.8) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.8) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.8) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.8) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.8) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.8) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.8) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.8) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.8) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.8) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.8) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.8) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.8) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.8) lib/rack/etag.rb:27:in `call'
+rack (2.2.8) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.8) lib/rack/head.rb:12:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.8) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.8) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.8) lib/active_record/migration.rb:638:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/chefs/2/edit" for ::1 at 2024-01-19 17:08:19 +0500
+Processing by ChefsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:22:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/edit.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 1.8ms | Allocations: 129)
+  Rendered shared/_errors.html.erb (Duration: 2.7ms | Allocations: 239)
+  Rendered chefs/_form.html.erb (Duration: 20.3ms | Allocations: 2167)
+  Rendered chefs/edit.html.erb within layouts/application (Duration: 27.6ms | Allocations: 2664)
+  Rendered layouts/_navigation.html.erb (Duration: 1.7ms | Allocations: 274)
+  Rendered layouts/_messages.html.erb (Duration: 1.2ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 1.3ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 71.2ms | Allocations: 9262)
+Completed 200 OK in 86ms (Views: 77.8ms | ActiveRecord: 0.4ms | Allocations: 10561)
+
+
+Started GET "/chefs/2/edit" for ::1 at 2024-01-19 17:13:47 +0500
+Processing by ChefsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:22:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/edit.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 2.2ms | Allocations: 129)
+  Rendered shared/_errors.html.erb (Duration: 12.7ms | Allocations: 238)
+  Rendered chefs/_form.html.erb (Duration: 27.7ms | Allocations: 2147)
+  Rendered chefs/edit.html.erb within layouts/application (Duration: 35.7ms | Allocations: 2641)
+  Rendered layouts/_navigation.html.erb (Duration: 1.4ms | Allocations: 274)
+  Rendered layouts/_messages.html.erb (Duration: 1.2ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 64.8ms | Allocations: 9122)
+Completed 200 OK in 81ms (Views: 72.1ms | ActiveRecord: 0.4ms | Allocations: 10422)
+
+
+Started PATCH "/chefs/2" for ::1 at 2024-01-19 17:18:33 +0500
+Processing by ChefsController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chef"=>{"chefname"=>"Touseef", "email"=>"touseef.ali@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update my account", "id"=>"2"}
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:26:in `update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/chefs_controller.rb:28:in `update'
+  [1m[36mChef Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) AND "chefs"."id" != ? LIMIT ?[0m  [["email", "touseef.ali@gmail.com"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:28:in `update'
+  [1m[36mChef Update (0.4ms)[0m  [1m[33mUPDATE "chefs" SET "email" = ?, "updated_at" = ? WHERE "chefs"."id" = ?[0m  [["email", "touseef.ali@gmail.com"], ["updated_at", "2024-01-19 12:18:33.925075"], ["id", 2]]
+  ↳ app/controllers/chefs_controller.rb:28:in `update'
+  [1m[36mTRANSACTION (15.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/chefs_controller.rb:28:in `update'
+Redirected to http://localhost:3000/chefs/2
+Completed 302 Found in 36ms (ActiveRecord: 17.4ms | Allocations: 8494)
+
+
+Started GET "/chefs/2" for ::1 at 2024-01-19 17:18:33 +0500
+Processing by ChefsController#show as TURBO_STREAM
+  Parameters: {"id"=>"2"}
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:18:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 14)
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."chef_id" = ?[0m  [["chef_id", 2]]
+  ↳ app/views/recipes/_recipe.html.erb:1
+  Rendered recipes/_recipe.html.erb (Duration: 12.6ms | Allocations: 4299)
+  Rendered chefs/show.html.erb within layouts/application (Duration: 19.5ms | Allocations: 6298)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 99)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 50.3ms | Allocations: 26112)
+Completed 200 OK in 54ms (Views: 50.8ms | ActiveRecord: 1.3ms | Allocations: 27196)
+
+
+  [1m[36mChef Load (0.3ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs"[0m
