@@ -5282,3 +5282,574 @@ Processing by RecipesController#index as TURBO_STREAM
 Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.5ms | Allocations: 10581)
 
 
+Started GET "/recipes/5" for ::1 at 2024-01-18 19:50:20 +0500
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 1.1ms | Allocations: 129)
+  [1m[36mChef Load (0.3ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/show.html.erb:15
+  Rendered recipes/show.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1716)
+  Rendered layouts/_navigation.html.erb (Duration: 0.9ms | Allocations: 209)
+  Rendered layouts/_messages.html.erb (Duration: 0.5ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 25.6ms | Allocations: 8293)
+Completed 200 OK in 35ms (Views: 27.4ms | ActiveRecord: 1.2ms | Allocations: 9743)
+
+
+Started GET "/recipes/5" for ::1 at 2024-01-18 19:50:20 +0500
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/show.html.erb:15
+  Rendered recipes/show.html.erb within layouts/application (Duration: 11.0ms | Allocations: 1202)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 35.7ms | Allocations: 6857)
+Completed 200 OK in 44ms (Views: 36.7ms | ActiveRecord: 0.9ms | Allocations: 7611)
+
+
+Started GET "/recipes/5" for ::1 at 2024-01-18 19:51:42 +0500
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 1.7ms | Allocations: 130)
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/show.html.erb:15
+  Rendered recipes/show.html.erb within layouts/application (Duration: 28.7ms | Allocations: 1695)
+  Rendered layouts/_navigation.html.erb (Duration: 1.0ms | Allocations: 210)
+  Rendered layouts/_messages.html.erb (Duration: 1.3ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 1.4ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 69.5ms | Allocations: 8320)
+Completed 200 OK in 88ms (Views: 74.5ms | ActiveRecord: 0.8ms | Allocations: 9623)
+
+
+Started GET "/recipes/5" for ::1 at 2024-01-18 19:53:46 +0500
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 1.0ms | Allocations: 129)
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/show.html.erb:15
+  Rendered recipes/show.html.erb within layouts/application (Duration: 8.5ms | Allocations: 1690)
+  Rendered layouts/_navigation.html.erb (Duration: 1.2ms | Allocations: 262)
+  Rendered layouts/_messages.html.erb (Duration: 0.7ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 23.5ms | Allocations: 8318)
+Completed 200 OK in 39ms (Views: 26.8ms | ActiveRecord: 0.6ms | Allocations: 9621)
+
+
+Started GET "/recipes/new" for ::1 at 2024-01-18 19:53:48 +0500
+Processing by RecipesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 12.9ms | Allocations: 1636)
+  Rendered layouts/_navigation.html.erb (Duration: 0.9ms | Allocations: 81)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 56.0ms | Allocations: 7133)
+Completed 200 OK in 60ms (Views: 57.6ms | ActiveRecord: 0.0ms | Allocations: 7480)
+
+
+Started GET "/recipes/5" for ::1 at 2024-01-18 19:54:06 +0500
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.6ms | Allocations: 129)
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/show.html.erb:15
+  Rendered recipes/show.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1690)
+  Rendered layouts/_navigation.html.erb (Duration: 1.2ms | Allocations: 260)
+  Rendered layouts/_messages.html.erb (Duration: 0.8ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 1.1ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 25.2ms | Allocations: 8327)
+Completed 200 OK in 30ms (Views: 27.0ms | ActiveRecord: 0.3ms | Allocations: 9626)
+
+
+Started GET "/recipes/5" for ::1 at 2024-01-18 19:54:08 +0500
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/show.html.erb:15
+  Rendered recipes/show.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1202)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 81)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 6864)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.2ms | Allocations: 7615)
+
+
+Started GET "/recipes/5" for ::1 at 2024-01-18 19:54:24 +0500
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.6ms | Allocations: 129)
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/show.html.erb:15
+  Rendered recipes/show.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1689)
+  Rendered layouts/_navigation.html.erb (Duration: 0.9ms | Allocations: 275)
+  Rendered layouts/_messages.html.erb (Duration: 0.9ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 8350)
+Completed 200 OK in 30ms (Views: 25.5ms | ActiveRecord: 0.3ms | Allocations: 9649)
+
+
+Started GET "/recipes/5" for ::1 at 2024-01-18 19:55:51 +0500
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 2.3ms | Allocations: 129)
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/show.html.erb:15
+  Rendered recipes/show.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1693)
+  Rendered layouts/_navigation.html.erb (Duration: 1.8ms | Allocations: 274)
+  Rendered layouts/_messages.html.erb (Duration: 0.7ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 8436)
+Completed 200 OK in 29ms (Views: 26.5ms | ActiveRecord: 0.3ms | Allocations: 9739)
+
+
+Started GET "/" for ::1 at 2024-01-18 19:55:53 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.1ms | Allocations: 221)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 101)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 20)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 46.5ms | Allocations: 6038)
+Completed 200 OK in 55ms (Views: 52.6ms | ActiveRecord: 0.0ms | Allocations: 6606)
+
+
+Started GET "/recipes" for ::1 at 2024-01-18 19:55:54 +0500
+Processing by RecipesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.3ms | Allocations: 12)
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:2
+  [1m[36mChef Load (0.5ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  [1m[36mCACHE Chef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  [1m[36mCACHE Chef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  [1m[36mCACHE Chef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  Rendered recipes/index.html.erb within layouts/application (Duration: 34.7ms | Allocations: 4878)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 50.8ms | Allocations: 10539)
+Completed 200 OK in 54ms (Views: 50.6ms | ActiveRecord: 1.7ms | Allocations: 10873)
+
+
+Started GET "/recipes/new" for ::1 at 2024-01-18 20:00:47 +0500
+Processing by RecipesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 1.1ms | Allocations: 129)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 11.8ms | Allocations: 1815)
+  Rendered layouts/_navigation.html.erb (Duration: 2.6ms | Allocations: 275)
+  Rendered layouts/_messages.html.erb (Duration: 2.1ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 2.4ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 61.3ms | Allocations: 8306)
+Completed 200 OK in 69ms (Views: 66.4ms | ActiveRecord: 0.0ms | Allocations: 9141)
+
+
+Started POST "/recipes" for ::1 at 2024-01-18 20:00:48 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 8.7ms | Allocations: 3529)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 9029)
+Completed 200 OK in 26ms (Views: 21.0ms | ActiveRecord: 0.2ms | Allocations: 10985)
+
+
+Started POST "/recipes" for ::1 at 2024-01-18 20:00:55 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 24.5ms | Allocations: 3475)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 59.1ms | Allocations: 8976)
+Completed 200 OK in 70ms (Views: 60.1ms | ActiveRecord: 0.4ms | Allocations: 10623)
+
+
+Started POST "/recipes" for ::1 at 2024-01-18 20:00:55 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 33.5ms | Allocations: 3475)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 66.9ms | Allocations: 9059)
+Completed 200 OK in 88ms (Views: 73.2ms | ActiveRecord: 0.4ms | Allocations: 10686)
+
+
+Started POST "/recipes" for ::1 at 2024-01-18 20:00:56 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.5ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 28.8ms | Allocations: 3475)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 56.8ms | Allocations: 9060)
+Completed 200 OK in 72ms (Views: 59.2ms | ActiveRecord: 0.5ms | Allocations: 10702)
+
+
+Started POST "/recipes" for ::1 at 2024-01-18 20:00:56 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.5ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 25.0ms | Allocations: 3475)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 66.4ms | Allocations: 8976)
+Completed 200 OK in 80ms (Views: 68.5ms | ActiveRecord: 0.5ms | Allocations: 10647)
+
+
+Started POST "/recipes" for ::1 at 2024-01-18 20:00:57 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.7ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.3ms | Allocations: 12)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 30.3ms | Allocations: 3475)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 61.6ms | Allocations: 8975)
+Completed 200 OK in 75ms (Views: 63.1ms | ActiveRecord: 0.7ms | Allocations: 10620)
+
+
+Started POST "/recipes" for ::1 at 2024-01-18 20:00:57 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 26.0ms | Allocations: 3475)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 73.6ms | Allocations: 8975)
+Completed 200 OK in 89ms (Views: 75.4ms | ActiveRecord: 0.4ms | Allocations: 10617)
+
+
+Started POST "/recipes" for ::1 at 2024-01-18 20:00:58 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.5ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 27.4ms | Allocations: 3475)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 79.1ms | Allocations: 8975)
+Completed 200 OK in 94ms (Views: 81.5ms | ActiveRecord: 0.5ms | Allocations: 10623)
+
+
+Started POST "/recipes" for ::1 at 2024-01-18 20:00:58 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.5ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 23.0ms | Allocations: 3475)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 67.9ms | Allocations: 8975)
+Completed 200 OK in 81ms (Views: 69.3ms | ActiveRecord: 0.5ms | Allocations: 10622)
+
+
+Started GET "/recipes/new" for ::1 at 2024-01-18 20:02:59 +0500
+Processing by RecipesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 1.8ms | Allocations: 129)
+  Rendered recipes/_form.html.erb (Duration: 23.4ms | Allocations: 1550)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 38.8ms | Allocations: 2050)
+  Rendered layouts/_navigation.html.erb (Duration: 1.0ms | Allocations: 274)
+  Rendered layouts/_messages.html.erb (Duration: 0.6ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 61.4ms | Allocations: 8624)
+Completed 200 OK in 79ms (Views: 75.0ms | ActiveRecord: 0.0ms | Allocations: 9456)
+
+
+Started POST "/recipes" for ::1 at 2024-01-18 20:10:26 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.7ms | Allocations: 129)
+  Rendered shared/_errors.html.erb (Duration: 2.0ms | Allocations: 1255)
+  Rendered recipes/_form.html.erb (Duration: 11.3ms | Allocations: 4125)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 15.2ms | Allocations: 4665)
+  Rendered layouts/_navigation.html.erb (Duration: 1.6ms | Allocations: 274)
+  Rendered layouts/_messages.html.erb (Duration: 0.9ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 32.7ms | Allocations: 11231)
+Completed 200 OK in 41ms (Views: 35.5ms | ActiveRecord: 0.5ms | Allocations: 13615)
+
+
+Started GET "/recipes/new" for ::1 at 2024-01-18 20:13:01 +0500
+Processing by RecipesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.8ms | Allocations: 129)
+  Rendered shared/_errors.html.erb (Duration: 1.5ms | Allocations: 240)
+  Rendered recipes/_form.html.erb (Duration: 10.4ms | Allocations: 1774)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 14.7ms | Allocations: 2268)
+  Rendered layouts/_navigation.html.erb (Duration: 1.2ms | Allocations: 274)
+  Rendered layouts/_messages.html.erb (Duration: 1.3ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 45.0ms | Allocations: 8758)
+Completed 200 OK in 51ms (Views: 48.7ms | ActiveRecord: 0.0ms | Allocations: 9587)
+
+
+Started POST "/recipes" for ::1 at 2024-01-18 20:13:02 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.3ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 4.1ms | Allocations: 1026)
+  Rendered recipes/_form.html.erb (Duration: 10.9ms | Allocations: 3474)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 12.3ms | Allocations: 3654)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 24.0ms | Allocations: 9154)
+Completed 200 OK in 34ms (Views: 25.4ms | ActiveRecord: 0.3ms | Allocations: 10828)
+
+
+Started GET "/recipes/new" for ::1 at 2024-01-19 12:00:42 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.5ms | Allocations: 152)
+  Rendered shared/_errors.html.erb (Duration: 1.5ms | Allocations: 253)
+  Rendered recipes/_form.html.erb (Duration: 18.2ms | Allocations: 2982)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 20.9ms | Allocations: 3724)
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 288)
+  Rendered layouts/_messages.html.erb (Duration: 0.7ms | Allocations: 229)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 156)
+  Rendered layout layouts/application.html.erb (Duration: 1947.1ms | Allocations: 72218)
+Completed 200 OK in 1976ms (Views: 1951.7ms | ActiveRecord: 1.0ms | Allocations: 82244)
+
+
+Started GET "/recipes/new" for ::1 at 2024-01-19 12:05:22 +0500
+Processing by RecipesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered recipes/_form.html.erb (Duration: 3.1ms | Allocations: 1149)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1283)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 6792)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 7079)
+
+
+Started GET "/recipes" for ::1 at 2024-01-19 12:05:25 +0500
+Processing by RecipesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.4ms | Allocations: 12)
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:2
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  [1m[36mCACHE Chef Load (0.0ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  [1m[36mCACHE Chef Load (0.0ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  [1m[36mCACHE Chef Load (0.0ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  Rendered recipes/index.html.erb within layouts/application (Duration: 90.9ms | Allocations: 14953)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 141.2ms | Allocations: 20689)
+Completed 200 OK in 144ms (Views: 139.7ms | ActiveRecord: 2.6ms | Allocations: 21078)
+
+
+Started GET "/recipes/1" for ::1 at 2024-01-19 12:05:26 +0500
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/show.html.erb:15
+  Rendered recipes/show.html.erb within layouts/application (Duration: 10.6ms | Allocations: 1660)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 24.8ms | Allocations: 7314)
+Completed 200 OK in 33ms (Views: 26.1ms | ActiveRecord: 0.8ms | Allocations: 8760)
+
+
+Started GET "/recipes" for ::1 at 2024-01-19 12:05:28 +0500
+Processing by RecipesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:2
+  [1m[36mChef Load (0.3ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  [1m[36mCACHE Chef Load (0.0ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  [1m[36mCACHE Chef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  [1m[36mCACHE Chef Load (0.0ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  Rendered recipes/index.html.erb within layouts/application (Duration: 23.6ms | Allocations: 4636)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 35.9ms | Allocations: 10311)
+Completed 200 OK in 38ms (Views: 35.9ms | ActiveRecord: 1.0ms | Allocations: 10588)
+
+
+Started GET "/recipes/7" for ::1 at 2024-01-19 12:05:31 +0500
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  [1m[36mChef Load (0.3ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/show.html.erb:15
+  Rendered recipes/show.html.erb within layouts/application (Duration: 8.9ms | Allocations: 1187)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 6849)
+Completed 200 OK in 30ms (Views: 25.6ms | ActiveRecord: 0.6ms | Allocations: 7612)
+
+
+Started DELETE "/recipes/7" for ::1 at 2024-01-19 12:05:34 +0500
+Processing by RecipesController#destroy as TURBO_STREAM
+  Parameters: {"id"=>"7"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:40:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/recipes_controller.rb:41:in `destroy'
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = ?[0m  [["id", 7]]
+  ↳ app/controllers/recipes_controller.rb:41:in `destroy'
+  [1m[36mTRANSACTION (12.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/recipes_controller.rb:41:in `destroy'
+Redirected to http://localhost:3000/recipes
+Completed 303 See Other in 21ms (ActiveRecord: 12.8ms | Allocations: 2721)
+
+
+Started GET "/recipes" for ::1 at 2024-01-19 12:05:34 +0500
+Processing by RecipesController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.0ms | Allocations: 12)
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:2
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  [1m[36mCACHE Chef Load (0.0ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  [1m[36mCACHE Chef Load (0.0ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  Rendered recipes/index.html.erb within layouts/application (Duration: 14.4ms | Allocations: 3902)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 22)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 9586)
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.5ms | Allocations: 9912)
+
+
