@@ -5853,3 +5853,1406 @@ Processing by RecipesController#index as TURBO_STREAM
 Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.5ms | Allocations: 9912)
 
 
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddPasswordDigestToChefs (20240119073121)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "chefs" ADD "password_digest" varchar[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20240119073121"]]
+  [1m[36mTRANSACTION (13.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mChef Load (0.3ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs"[0m
+  [1m[36mChef Load (0.5ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs"[0m
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChef Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) AND "chefs"."id" != ? LIMIT ?[0m  [["email", "mashrur.hossain@gmail.com"], ["id", 2], ["LIMIT", 1]]
+  [1m[36mChef Update (0.3ms)[0m  [1m[33mUPDATE "chefs" SET "updated_at" = ?, "password_digest" = ? WHERE "chefs"."id" = ?[0m  [["updated_at", "2024-01-19 07:37:09.767410"], ["password_digest", "[FILTERED]"], ["id", 2]]
+  [1m[36mTRANSACTION (15.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs"[0m
+  [1m[36mChef Load (0.5ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/signup" for ::1 at 2024-01-19 12:54:28 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (uninitialized constant ChefsController):
+  
+Started GET "/signup" for ::1 at 2024-01-19 12:57:09 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered chefs/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 104)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 305)
+  Rendered layouts/_messages.html.erb (Duration: 0.5ms | Allocations: 201)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 20777)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms | Allocations: 21679)
+
+
+Started GET "/signup" for ::1 at 2024-01-19 12:58:31 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.4ms | Allocations: 129)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 364)
+  Rendered layouts/_navigation.html.erb (Duration: 0.9ms | Allocations: 296)
+  Rendered layouts/_messages.html.erb (Duration: 0.7ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 7049)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 7861)
+
+
+Started GET "/" for ::1 at 2024-01-19 12:58:45 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 231)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 101)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 5992)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 6635)
+
+
+Started GET "/" for ::1 at 2024-01-19 12:59:42 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 222)
+  Rendered layouts/_navigation.html.erb (Duration: 1.6ms | Allocations: 276)
+  Rendered layouts/_messages.html.erb (Duration: 1.2ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 34.1ms | Allocations: 6900)
+Completed 200 OK in 40ms (Views: 37.4ms | ActiveRecord: 0.0ms | Allocations: 7712)
+
+
+Started GET "/signup" for ::1 at 2024-01-19 12:59:44 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.8ms | Allocations: 129)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 362)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 121)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 33.5ms | Allocations: 6156)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.0ms | Allocations: 6723)
+
+
+Started GET "/signup" for ::1 at 2024-01-19 13:02:16 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 1.1ms | Allocations: 129)
+  Rendered shared/_errors.html.erb (Duration: 4.9ms | Allocations: 1313)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 10.4ms | Allocations: 2017)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 2105)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 2918)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1:  
+    2: <% if obj.errors.any? %>
+    3:     <div class="row">
+    4:         <div class="col-md-8 offset-md-2">
+    5:             <div class="card bg-dark">
+  
+app/views/shared/_errors.html.erb:2
+app/views/chefs/new.html.erb:3
+Started GET "/signup" for ::1 at 2024-01-19 13:04:23 +0500
+Processing by ChefsController#new as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1557)
+
+
+  
+LoadError (cannot load such file -- bcrypt):
+  
+app/models/chef.rb:9:in `<class:Chef>'
+app/models/chef.rb:1:in `<main>'
+app/controllers/chefs_controller.rb:4:in `new'
+Started GET "/signup" for ::1 at 2024-01-19 13:06:12 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.4ms | Allocations: 152)
+  Rendered shared/_errors.html.erb (Duration: 0.6ms | Allocations: 253)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 8.3ms | Allocations: 3887)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 3987)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.9ms | Allocations: 14325)
+
+
+  
+ActionView::Template::Error (undefined method `email' for #<ActionView::Helpers::FormBuilder:0x00007f0058cd29e0 @nested_child_index={}, @options={:allow_method_names_outside_object=>false, :skip_default_ids=>false, :html=>{:class=>"form-horizontal", :id=>"new_chef", :role=>"form"}, :method=>:post, :local=>true}, @template=#<ActionView::Base:0x0000000000c0d0>, @object=#<Chef id: nil, chefname: nil, email: nil, created_at: nil, updated_at: nil, password_digest: nil>, @object_name="chef", @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>false}, @default_html_options={}, @multipart=nil, @index=nil>):
+    21:                         <%= f.label :email %>
+    22:                     </div>
+    23:                     <div class="col-md-8">
+    24:                         <%= f.email :email, class: "form-control", placeholder: "Enter your email"%>
+    25:                     </div>
+    26:                 </div>
+    27:             </div>
+  
+app/views/chefs/new.html.erb:24
+app/views/chefs/new.html.erb:7
+Started GET "/signup" for ::1 at 2024-01-19 13:07:34 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.7ms | Allocations: 129)
+  Rendered shared/_errors.html.erb (Duration: 1.0ms | Allocations: 238)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 30.7ms | Allocations: 4484)
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 286)
+  Rendered layouts/_messages.html.erb (Duration: 0.6ms | Allocations: 230)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 156)
+  Rendered layout layouts/application.html.erb (Duration: 161.3ms | Allocations: 49404)
+Completed 200 OK in 166ms (Views: 164.1ms | ActiveRecord: 0.0ms | Allocations: 50288)
+
+
+Started GET "/signup" for ::1 at 2024-01-19 13:10:16 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 2.4ms | Allocations: 129)
+  Rendered shared/_errors.html.erb (Duration: 2.9ms | Allocations: 238)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 49.5ms | Allocations: 4935)
+  Rendered layouts/_navigation.html.erb (Duration: 1.0ms | Allocations: 274)
+  Rendered layouts/_messages.html.erb (Duration: 0.7ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 68.1ms | Allocations: 11439)
+Completed 200 OK in 78ms (Views: 74.2ms | ActiveRecord: 0.0ms | Allocations: 12272)
+
+
+Started GET "/signup" for ::1 at 2024-01-19 13:12:39 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.7ms | Allocations: 129)
+  Rendered shared/_errors.html.erb (Duration: 0.8ms | Allocations: 238)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 8.4ms | Allocations: 2533)
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 274)
+  Rendered layouts/_messages.html.erb (Duration: 0.6ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 9023)
+Completed 200 OK in 32ms (Views: 29.5ms | ActiveRecord: 0.0ms | Allocations: 9852)
+
+
+Started GET "/signup" for ::1 at 2024-01-19 13:13:51 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 2.9ms | Allocations: 129)
+  Rendered shared/_errors.html.erb (Duration: 2.1ms | Allocations: 238)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 20.1ms | Allocations: 2323)
+  Rendered layouts/_navigation.html.erb (Duration: 3.3ms | Allocations: 274)
+  Rendered layouts/_messages.html.erb (Duration: 2.3ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 1.9ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 77.3ms | Allocations: 8814)
+Completed 200 OK in 88ms (Views: 84.5ms | ActiveRecord: 0.0ms | Allocations: 9643)
+
+
+Started GET "/signup" for ::1 at 2024-01-19 15:06:53 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 2.6ms | Allocations: 129)
+  Rendered shared/_errors.html.erb (Duration: 4.1ms | Allocations: 238)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 23.4ms | Allocations: 2336)
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 274)
+  Rendered layouts/_messages.html.erb (Duration: 1.3ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 46.3ms | Allocations: 8827)
+Completed 200 OK in 55ms (Views: 51.7ms | ActiveRecord: 0.0ms | Allocations: 9656)
+
+
+Started GET "/signup" for ::1 at 2024-01-19 15:07:41 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.4ms | Allocations: 129)
+  Rendered shared/_errors.html.erb (Duration: 0.6ms | Allocations: 238)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 5.0ms | Allocations: 2351)
+  Rendered layouts/_navigation.html.erb (Duration: 1.8ms | Allocations: 274)
+  Rendered layouts/_messages.html.erb (Duration: 0.6ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 8842)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms | Allocations: 9677)
+
+
+Started GET "/signup" for ::1 at 2024-01-19 15:08:07 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 2.0ms | Allocations: 129)
+  Rendered shared/_errors.html.erb (Duration: 1.6ms | Allocations: 238)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 20.4ms | Allocations: 2320)
+  Rendered layouts/_navigation.html.erb (Duration: 1.0ms | Allocations: 274)
+  Rendered layouts/_messages.html.erb (Duration: 0.7ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 87.1ms | Allocations: 8811)
+Completed 200 OK in 98ms (Views: 93.0ms | ActiveRecord: 0.0ms | Allocations: 9646)
+
+
+Started POST "/chefs" for ::1 at 2024-01-19 15:14:57 +0500
+Processing by ChefsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chef"=>{"chefname"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+No template found for ChefsController#create, rendering head :no_content
+Completed 204 No Content in 39542ms (ActiveRecord: 0.0ms | Allocations: 85959)
+
+
+Started GET "/signup" for ::1 at 2024-01-19 15:19:06 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_errors.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1527)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layouts/_messages.html.erb (Duration: 0.5ms | Allocations: 21)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 27.9ms | Allocations: 21162)
+Completed 200 OK in 36ms (Views: 29.4ms | ActiveRecord: 0.3ms | Allocations: 24580)
+
+
+Started GET "/signup" for ::1 at 2024-01-19 15:19:09 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 8.8ms | Allocations: 1398)
+  Rendered layouts/_navigation.html.erb (Duration: 1.3ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 51.6ms | Allocations: 6906)
+Completed 200 OK in 56ms (Views: 54.0ms | ActiveRecord: 0.0ms | Allocations: 7184)
+
+
+Started GET "/signup" for ::1 at 2024-01-19 15:19:11 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 0.2ms | Allocations: 13)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 12.5ms | Allocations: 1374)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 51.7ms | Allocations: 6882)
+Completed 200 OK in 59ms (Views: 56.6ms | ActiveRecord: 0.0ms | Allocations: 7160)
+
+
+Started POST "/chefs" for ::1 at 2024-01-19 15:19:30 +0500
+Processing by ChefsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chef"=>{"chefname"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 6.3ms | Allocations: 1912)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 18.3ms | Allocations: 5667)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 31.5ms | Allocations: 11167)
+Completed 200 OK in 65ms (Views: 33.2ms | ActiveRecord: 1.2ms | Allocations: 16347)
+
+
+Started POST "/chefs" for ::1 at 2024-01-19 15:20:37 +0500
+Processing by ChefsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chef"=>{"chefname"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 5.0ms | Allocations: 1685)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 17.3ms | Allocations: 5383)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 31.4ms | Allocations: 10883)
+Completed 200 OK in 56ms (Views: 32.5ms | ActiveRecord: 1.0ms | Allocations: 14000)
+
+
+Started POST "/chefs" for ::1 at 2024-01-19 15:20:41 +0500
+Processing by ChefsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chef"=>{"chefname"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.3ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 7.4ms | Allocations: 1685)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 22.0ms | Allocations: 5383)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 36.6ms | Allocations: 11004)
+Completed 200 OK in 71ms (Views: 38.2ms | ActiveRecord: 1.1ms | Allocations: 14118)
+
+
+Started POST "/chefs" for ::1 at 2024-01-19 15:20:48 +0500
+Processing by ChefsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chef"=>{"chefname"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 8.9ms | Allocations: 1685)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 20.3ms | Allocations: 5383)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 34.0ms | Allocations: 10893)
+Completed 200 OK in 73ms (Views: 35.0ms | ActiveRecord: 1.2ms | Allocations: 14004)
+
+
+Started GET "/" for ::1 at 2024-01-19 15:23:13 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 236)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 101)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 21)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 27.9ms | Allocations: 5988)
+Completed 200 OK in 35ms (Views: 32.3ms | ActiveRecord: 0.0ms | Allocations: 6636)
+
+
+Started GET "/recipes/new" for ::1 at 2024-01-19 15:23:18 +0500
+Processing by RecipesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_errors.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered recipes/_form.html.erb (Duration: 5.2ms | Allocations: 1724)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 2047)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 99)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 7634)
+Completed 200 OK in 41ms (Views: 22.8ms | ActiveRecord: 1.0ms | Allocations: 12558)
+
+
+Started POST "/recipes" for ::1 at 2024-01-19 15:23:21 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.3ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:18:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 4.2ms | Allocations: 1114)
+  Rendered recipes/_form.html.erb (Duration: 14.3ms | Allocations: 3566)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 16.5ms | Allocations: 3703)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 34.6ms | Allocations: 9203)
+Completed 200 OK in 50ms (Views: 36.3ms | ActiveRecord: 0.3ms | Allocations: 12233)
+
+
+Started GET "/recipes/new" for ::1 at 2024-01-19 15:23:31 +0500
+Processing by RecipesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 1.7ms | Allocations: 129)
+  Rendered shared/_errors.html.erb (Duration: 1.3ms | Allocations: 238)
+  Rendered recipes/_form.html.erb (Duration: 8.3ms | Allocations: 1778)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 13.9ms | Allocations: 2272)
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 274)
+  Rendered layouts/_messages.html.erb (Duration: 0.9ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 31.0ms | Allocations: 8761)
+Completed 200 OK in 41ms (Views: 36.6ms | ActiveRecord: 0.0ms | Allocations: 9593)
+
+
+Started GET "/recipes/new" for ::1 at 2024-01-19 15:23:41 +0500
+Processing by RecipesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 2.9ms | Allocations: 129)
+  Rendered shared/_errors.html.erb (Duration: 2.4ms | Allocations: 238)
+  Rendered recipes/_form.html.erb (Duration: 18.7ms | Allocations: 1775)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 29.4ms | Allocations: 2272)
+  Rendered layouts/_navigation.html.erb (Duration: 1.6ms | Allocations: 277)
+  Rendered layouts/_messages.html.erb (Duration: 2.0ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 87.0ms | Allocations: 8817)
+Completed 200 OK in 100ms (Views: 95.9ms | ActiveRecord: 0.0ms | Allocations: 9647)
+
+
+Started GET "/recipes/new" for ::1 at 2024-01-19 15:24:35 +0500
+Processing by RecipesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 1.9ms | Allocations: 129)
+  Rendered shared/_errors.html.erb (Duration: 1.6ms | Allocations: 247)
+  Rendered recipes/_form.html.erb (Duration: 14.3ms | Allocations: 1775)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 22.0ms | Allocations: 2270)
+  Rendered layouts/_navigation.html.erb (Duration: 1.6ms | Allocations: 274)
+  Rendered layouts/_messages.html.erb (Duration: 0.7ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 48.6ms | Allocations: 8817)
+Completed 200 OK in 65ms (Views: 60.8ms | ActiveRecord: 0.0ms | Allocations: 9650)
+
+
+Started POST "/recipes" for ::1 at 2024-01-19 15:24:37 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:18:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 2.7ms | Allocations: 1026)
+  Rendered recipes/_form.html.erb (Duration: 9.0ms | Allocations: 3471)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 9.8ms | Allocations: 3651)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 25.6ms | Allocations: 9151)
+Completed 200 OK in 31ms (Views: 26.5ms | ActiveRecord: 0.1ms | Allocations: 10839)
+
+
+Started POST "/recipes" for ::1 at 2024-01-19 15:25:31 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:18:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_errors.html.erb (Duration: 1.2ms | Allocations: 1039)
+  Rendered recipes/_form.html.erb (Duration: 7.0ms | Allocations: 3585)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 7.5ms | Allocations: 3730)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 29.5ms | Allocations: 23237)
+Completed 200 OK in 46ms (Views: 31.0ms | ActiveRecord: 1.3ms | Allocations: 31559)
+
+
+Started POST "/recipes" for ::1 at 2024-01-19 15:25:45 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.3ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:18:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 5.0ms | Allocations: 1025)
+  Rendered recipes/_form.html.erb (Duration: 14.5ms | Allocations: 3468)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 15.6ms | Allocations: 3605)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 34.8ms | Allocations: 9223)
+Completed 200 OK in 61ms (Views: 36.8ms | ActiveRecord: 0.3ms | Allocations: 10850)
+
+
+Started POST "/recipes" for ::1 at 2024-01-19 15:25:45 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.3ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:18:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.3ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 7.7ms | Allocations: 1025)
+  Rendered recipes/_form.html.erb (Duration: 25.1ms | Allocations: 3468)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 27.9ms | Allocations: 3608)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 62.6ms | Allocations: 9214)
+Completed 200 OK in 74ms (Views: 64.7ms | ActiveRecord: 0.3ms | Allocations: 10889)
+
+
+Started POST "/recipes" for ::1 at 2024-01-19 15:25:46 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:18:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 7.7ms | Allocations: 1025)
+  Rendered recipes/_form.html.erb (Duration: 28.3ms | Allocations: 3468)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 31.2ms | Allocations: 3605)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 57.7ms | Allocations: 9105)
+Completed 200 OK in 74ms (Views: 59.9ms | ActiveRecord: 0.4ms | Allocations: 10758)
+
+
+Started POST "/recipes" for ::1 at 2024-01-19 15:29:45 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 1.3ms | Allocations: 8299)
+
+
+  
+NoMethodError (undefined method `[]=' for :unprocessable_entity:Symbol):
+  
+app/controllers/recipes_controller.rb:23:in `create'
+Started GET "/recipes/new" for ::1 at 2024-01-19 15:30:12 +0500
+Processing by RecipesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_errors.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered recipes/_form.html.erb (Duration: 3.8ms | Allocations: 1241)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1383)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 31.5ms | Allocations: 21016)
+Completed 200 OK in 40ms (Views: 33.2ms | ActiveRecord: 0.6ms | Allocations: 24479)
+
+
+Started POST "/recipes" for ::1 at 2024-01-19 15:30:13 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.7ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:18:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 5.3ms | Allocations: 1029)
+  Rendered recipes/_form.html.erb (Duration: 23.7ms | Allocations: 3479)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 25.7ms | Allocations: 3616)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 38.2ms | Allocations: 9233)
+Completed 422 Unprocessable Entity in 86ms (Views: 40.3ms | ActiveRecord: 3.3ms | Allocations: 14432)
+
+
+Started GET "/recipes/new" for ::1 at 2024-01-19 15:30:40 +0500
+Processing by RecipesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 1.9ms | Allocations: 130)
+  Rendered shared/_errors.html.erb (Duration: 2.5ms | Allocations: 243)
+  Rendered recipes/_form.html.erb (Duration: 18.3ms | Allocations: 1777)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 27.3ms | Allocations: 2275)
+  Rendered layouts/_navigation.html.erb (Duration: 1.4ms | Allocations: 274)
+  Rendered layouts/_messages.html.erb (Duration: 1.2ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 78.2ms | Allocations: 8816)
+Completed 200 OK in 90ms (Views: 84.8ms | ActiveRecord: 0.0ms | Allocations: 9647)
+
+
+Started POST "/recipes" for ::1 at 2024-01-19 15:30:41 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:18:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 5.1ms | Allocations: 1026)
+  Rendered recipes/_form.html.erb (Duration: 15.8ms | Allocations: 3471)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 17.8ms | Allocations: 3651)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 34.5ms | Allocations: 9151)
+Completed 422 Unprocessable Entity in 51ms (Views: 36.4ms | ActiveRecord: 0.4ms | Allocations: 10834)
+
+
+Started GET "/recipes/new" for ::1 at 2024-01-19 15:30:51 +0500
+Processing by RecipesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 1.7ms | Allocations: 129)
+  Rendered shared/_errors.html.erb (Duration: 1.7ms | Allocations: 243)
+  Rendered recipes/_form.html.erb (Duration: 21.3ms | Allocations: 1768)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 31.0ms | Allocations: 2262)
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 274)
+  Rendered layouts/_messages.html.erb (Duration: 0.9ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 1.2ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 57.0ms | Allocations: 8751)
+Completed 200 OK in 72ms (Views: 68.2ms | ActiveRecord: 0.0ms | Allocations: 9581)
+
+
+Started POST "/recipes" for ::1 at 2024-01-19 15:30:52 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:18:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 6.7ms | Allocations: 1026)
+  Rendered recipes/_form.html.erb (Duration: 22.8ms | Allocations: 3471)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 24.5ms | Allocations: 3651)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 59.0ms | Allocations: 9151)
+Completed 422 Unprocessable Entity in 72ms (Views: 60.8ms | ActiveRecord: 0.4ms | Allocations: 10836)
+
+
+Started GET "/recipes/new" for ::1 at 2024-01-19 15:32:45 +0500
+Processing by RecipesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 1.2ms | Allocations: 129)
+  Rendered shared/_errors.html.erb (Duration: 2.4ms | Allocations: 243)
+  Rendered recipes/_form.html.erb (Duration: 14.3ms | Allocations: 1783)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 19.7ms | Allocations: 2277)
+  Rendered layouts/_navigation.html.erb (Duration: 1.7ms | Allocations: 274)
+  Rendered layouts/_messages.html.erb (Duration: 1.0ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 1.3ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 64.6ms | Allocations: 8768)
+Completed 200 OK in 77ms (Views: 72.9ms | ActiveRecord: 0.0ms | Allocations: 9596)
+
+
+Started POST "/recipes" for ::1 at 2024-01-19 15:32:47 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"", "description"=>""}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.3ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:18:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 6.8ms | Allocations: 1026)
+  Rendered recipes/_form.html.erb (Duration: 19.2ms | Allocations: 3471)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 21.7ms | Allocations: 3651)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 38.8ms | Allocations: 9151)
+Completed 422 Unprocessable Entity in 52ms (Views: 41.1ms | ActiveRecord: 0.3ms | Allocations: 10851)
+
+
+Started GET "/" for ::1 at 2024-01-19 15:39:33 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 241)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 45.1ms | Allocations: 20051)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.0ms | Allocations: 20711)
+
+
+Started GET "/signup" for ::1 at 2024-01-19 15:39:35 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.3ms | Allocations: 14)
+  Rendered shared/_errors.html.erb (Duration: 0.2ms | Allocations: 15)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 19.4ms | Allocations: 1936)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 99)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 46.5ms | Allocations: 7525)
+Completed 200 OK in 73ms (Views: 51.6ms | ActiveRecord: 0.8ms | Allocations: 11028)
+
+
+Started POST "/chefs" for ::1 at 2024-01-19 15:39:36 +0500
+Processing by ChefsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chef"=>{"chefname"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (3.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 15.3ms | Allocations: 1690)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 31.1ms | Allocations: 5395)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 48.6ms | Allocations: 10895)
+Completed 200 OK in 84ms (Views: 50.5ms | ActiveRecord: 4.1ms | Allocations: 14394)
+
+
+Started GET "/signup" for ::1 at 2024-01-19 15:39:47 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_errors.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1523)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 34.0ms | Allocations: 21157)
+Completed 200 OK in 43ms (Views: 35.1ms | ActiveRecord: 1.0ms | Allocations: 24889)
+
+
+Started POST "/chefs" for ::1 at 2024-01-19 15:39:49 +0500
+Processing by ChefsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chef"=>{"chefname"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 8.1ms | Allocations: 1690)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 26.7ms | Allocations: 5395)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 93.4ms | Allocations: 10896)
+Completed 200 OK in 116ms (Views: 94.2ms | ActiveRecord: 0.9ms | Allocations: 14389)
+
+
+Started GET "/signup" for ::1 at 2024-01-19 15:40:06 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_errors.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1523)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 99)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 33.0ms | Allocations: 21055)
+Completed 200 OK in 40ms (Views: 34.2ms | ActiveRecord: 0.6ms | Allocations: 24829)
+
+
+Started POST "/chefs" for ::1 at 2024-01-19 15:40:07 +0500
+Processing by ChefsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chef"=>{"chefname"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 4.2ms | Allocations: 1690)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 12.5ms | Allocations: 5395)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 24.7ms | Allocations: 10896)
+Completed 422 Unprocessable Entity in 34ms (Views: 25.6ms | ActiveRecord: 0.4ms | Allocations: 14391)
+
+
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs"[0m
+Started GET "/signup" for ::1 at 2024-01-19 15:52:09 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.5ms | Allocations: 135)
+  Rendered shared/_errors.html.erb (Duration: 0.8ms | Allocations: 245)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 7.0ms | Allocations: 2409)
+  Rendered layouts/_navigation.html.erb (Duration: 0.9ms | Allocations: 280)
+  Rendered layouts/_messages.html.erb (Duration: 0.8ms | Allocations: 207)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 46.0ms | Allocations: 22975)
+Completed 200 OK in 58ms (Views: 48.1ms | ActiveRecord: 0.4ms | Allocations: 26731)
+
+
+Started POST "/chefs" for ::1 at 2024-01-19 15:52:29 +0500
+Processing by ChefsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chef"=>{"chefname"=>"Fred", "email"=>"fred@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", "fred@example.com"], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Create (0.2ms)[0m  [1m[32mINSERT INTO "chefs" ("chefname", "email", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?, ?)[0m  [["chefname", "Fred"], ["email", "fred@example.com"], ["created_at", "2024-01-19 10:52:30.193053"], ["updated_at", "2024-01-19 10:52:30.193053"], ["password_digest", "[FILTERED]"]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (12.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+Completed 500 Internal Server Error in 353ms (ActiveRecord: 13.1ms | Allocations: 4933)
+
+
+  
+NoMethodError (undefined method `chef_path' for #<ChefsController:0x00000000035c00>):
+  
+app/controllers/chefs_controller.rb:11:in `create'
+Started GET "/signup" for ::1 at 2024-01-19 15:54:00 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.3ms | Allocations: 152)
+  Rendered shared/_errors.html.erb (Duration: 0.8ms | Allocations: 253)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 14.7ms | Allocations: 3957)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 283)
+  Rendered layouts/_messages.html.erb (Duration: 0.5ms | Allocations: 230)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 156)
+  Rendered layout layouts/application.html.erb (Duration: 127.7ms | Allocations: 49352)
+Completed 200 OK in 161ms (Views: 131.4ms | ActiveRecord: 0.6ms | Allocations: 59739)
+
+
+Started POST "/chefs" for ::1 at 2024-01-19 15:54:12 +0500
+Processing by ChefsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chef"=>{"chefname"=>"Fred", "email"=>"fred@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", "fred@example.com"], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 0.8ms | Allocations: 450)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 2242)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 7743)
+Completed 422 Unprocessable Entity in 286ms (Views: 15.7ms | ActiveRecord: 0.3ms | Allocations: 13066)
+
+
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs"[0m
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChef Destroy (0.3ms)[0m  [1m[31mDELETE FROM "chefs" WHERE "chefs"."id" = ?[0m  [["id", 3]]
+  [1m[36mTRANSACTION (12.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs"[0m
+Started POST "/chefs" for ::1 at 2024-01-19 15:56:22 +0500
+Processing by ChefsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chef"=>{"chefname"=>"Fred", "email"=>"fred@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", "fred@example.com"], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Create (0.6ms)[0m  [1m[32mINSERT INTO "chefs" ("chefname", "email", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?, ?)[0m  [["chefname", "Fred"], ["email", "fred@example.com"], ["created_at", "2024-01-19 10:56:22.446164"], ["updated_at", "2024-01-19 10:56:22.446164"], ["password_digest", "[FILTERED]"]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (15.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+Completed 500 Internal Server Error in 254ms (ActiveRecord: 15.9ms | Allocations: 4560)
+
+
+  
+NoMethodError (undefined method `chef_path' for #<ChefsController:0x0000000000c698>):
+  
+app/controllers/chefs_controller.rb:11:in `create'
+Started GET "/recipes/new" for ::1 at 2024-01-19 15:57:28 +0500
+Processing by RecipesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_errors.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered recipes/_form.html.erb (Duration: 4.4ms | Allocations: 1730)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 5.8ms | Allocations: 2053)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 7757)
+Completed 200 OK in 39ms (Views: 21.7ms | ActiveRecord: 0.9ms | Allocations: 12660)
+
+
+Started POST "/recipes" for ::1 at 2024-01-19 15:57:45 +0500
+Processing by RecipesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"Maggie", "description"=>"2 mint wali maggie banao or khaa lo"}, "commit"=>"Create Recipe"}
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/recipes_controller.rb:19:in `create'
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "created_at", "updated_at", "chef_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Maggie"], ["description", "2 mint wali maggie banao or khaa lo"], ["created_at", "2024-01-19 10:57:45.287009"], ["updated_at", "2024-01-19 10:57:45.287009"], ["chef_id", 1]]
+  ↳ app/controllers/recipes_controller.rb:19:in `create'
+  [1m[36mTRANSACTION (12.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/recipes_controller.rb:19:in `create'
+Redirected to http://localhost:3000/recipes/7
+Completed 302 Found in 27ms (ActiveRecord: 13.3ms | Allocations: 4513)
+
+
+Started GET "/recipes/7" for ::1 at 2024-01-19 15:57:45 +0500
+Processing by RecipesController#show as TURBO_STREAM
+  Parameters: {"id"=>"7"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:50:in `set_recipe'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/show.html.erb:15
+  Rendered recipes/show.html.erb within layouts/application (Duration: 9.1ms | Allocations: 2831)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 8499)
+Completed 200 OK in 28ms (Views: 24.7ms | ActiveRecord: 0.4ms | Allocations: 10091)
+
+
+Started GET "/" for ::1 at 2024-01-19 15:57:49 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.6ms | Allocations: 231)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 101)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 37.9ms | Allocations: 5995)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.0ms | Allocations: 6641)
+
+
+Started GET "/signup" for ::1 at 2024-01-19 15:57:52 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 9.9ms | Allocations: 1376)
+  Rendered layouts/_navigation.html.erb (Duration: 1.0ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 59.8ms | Allocations: 6885)
+Completed 200 OK in 64ms (Views: 61.9ms | ActiveRecord: 0.0ms | Allocations: 7170)
+
+
+Started GET "/recipes/new" for ::1 at 2024-01-19 16:00:04 +0500
+Processing by RecipesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered recipes/_form.html.erb (Duration: 3.9ms | Allocations: 1127)
+  Rendered recipes/new.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1261)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 30.1ms | Allocations: 6885)
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 0.0ms | Allocations: 7165)
+
+
+Started GET "/recipes" for ::1 at 2024-01-19 16:00:13 +0500
+Processing by RecipesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:2
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  [1m[36mCACHE Chef Load (0.0ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  [1m[36mCACHE Chef Load (0.0ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  [1m[36mCACHE Chef Load (0.0ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:6
+  Rendered recipes/index.html.erb within layouts/application (Duration: 21.8ms | Allocations: 4929)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 38.5ms | Allocations: 10704)
+Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.8ms | Allocations: 11038)
+
+
+Started GET "/recipes/7" for ::1 at 2024-01-19 16:00:16 +0500
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:50:in `set_recipe'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/show.html.erb:15
+  Rendered recipes/show.html.erb within layouts/application (Duration: 11.4ms | Allocations: 1186)
+  Rendered layouts/_navigation.html.erb (Duration: 0.9ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 53.3ms | Allocations: 6862)
+Completed 200 OK in 61ms (Views: 55.2ms | ActiveRecord: 0.7ms | Allocations: 7625)
+
+
+Started GET "/recipes/7/edit" for ::1 at 2024-01-19 16:00:17 +0500
+Processing by RecipesController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:50:in `set_recipe'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/edit.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 0.2ms | Allocations: 13)
+  Rendered recipes/_form.html.erb (Duration: 8.9ms | Allocations: 1233)
+  Rendered recipes/edit.html.erb within layouts/application (Duration: 12.6ms | Allocations: 1492)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 59.4ms | Allocations: 6993)
+Completed 200 OK in 69ms (Views: 61.0ms | ActiveRecord: 0.4ms | Allocations: 7806)
+
+
+Started PATCH "/recipes/7" for ::1 at 2024-01-19 16:00:23 +0500
+Processing by RecipesController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"Maggie 2 mint", "description"=>"2 mint wali maggie banao or khaa lo"}, "commit"=>"Update Recipe", "id"=>"7"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:50:in `set_recipe'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/recipes_controller.rb:33:in `update'
+  [1m[36mChef Load (0.3ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:33:in `update'
+  [1m[36mRecipe Update (0.8ms)[0m  [1m[33mUPDATE "recipes" SET "name" = ?, "updated_at" = ? WHERE "recipes"."id" = ?[0m  [["name", "Maggie 2 mint"], ["updated_at", "2024-01-19 11:00:23.205007"], ["id", 7]]
+  ↳ app/controllers/recipes_controller.rb:33:in `update'
+  [1m[36mTRANSACTION (17.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/recipes_controller.rb:33:in `update'
+Redirected to http://localhost:3000/recipes/7
+Completed 302 Found in 49ms (ActiveRecord: 18.8ms | Allocations: 4069)
+
+
+Started GET "/recipes/7" for ::1 at 2024-01-19 16:00:23 +0500
+Processing by RecipesController#show as TURBO_STREAM
+  Parameters: {"id"=>"7"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:50:in `set_recipe'
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.0ms | Allocations: 12)
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/recipes/show.html.erb:15
+  Rendered recipes/show.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1189)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 6872)
+Completed 200 OK in 16ms (Views: 13.8ms | ActiveRecord: 0.3ms | Allocations: 7631)
+
+
+Started GET "/" for ::1 at 2024-01-19 16:01:41 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 55)
+  Rendered layouts/_navigation.html.erb (Duration: 0.9ms | Allocations: 93)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 48.0ms | Allocations: 5716)
+Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.0ms | Allocations: 5981)
+
+
+Started GET "/signup" for ::1 at 2024-01-19 16:01:44 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.3ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 0.2ms | Allocations: 13)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 9.1ms | Allocations: 1392)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 55.1ms | Allocations: 6989)
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.0ms | Allocations: 7270)
+
+
+Started POST "/chefs" for ::1 at 2024-01-19 16:01:59 +0500
+Processing by ChefsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chef"=>{"chefname"=>"fred", "email"=>"fred1@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", "fred1@example.com"], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Create (0.2ms)[0m  [1m[32mINSERT INTO "chefs" ("chefname", "email", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?, ?)[0m  [["chefname", "fred"], ["email", "fred1@example.com"], ["created_at", "2024-01-19 11:01:59.671589"], ["updated_at", "2024-01-19 11:01:59.671589"], ["password_digest", "[FILTERED]"]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (15.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+Completed 500 Internal Server Error in 253ms (ActiveRecord: 15.6ms | Allocations: 3604)
+
+
+  
+NoMethodError (undefined method `chef_path' for #<ChefsController:0x0000000000cfd0>):
+  
+app/controllers/chefs_controller.rb:11:in `create'
+Started GET "/signup" for ::1 at 2024-01-19 16:02:51 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.4ms | Allocations: 152)
+  Rendered shared/_errors.html.erb (Duration: 0.5ms | Allocations: 253)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 22.8ms | Allocations: 3942)
+  Rendered layouts/_navigation.html.erb (Duration: 5.5ms | Allocations: 283)
+  Rendered layouts/_messages.html.erb (Duration: 0.9ms | Allocations: 230)
+  Rendered layouts/_footer.html.erb (Duration: 5.1ms | Allocations: 156)
+  Rendered layout layouts/application.html.erb (Duration: 174.9ms | Allocations: 49097)
+Completed 200 OK in 208ms (Views: 179.7ms | ActiveRecord: 1.1ms | Allocations: 59484)
+
+
+Started POST "/chefs" for ::1 at 2024-01-19 16:03:05 +0500
+Processing by ChefsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chef"=>{"chefname"=>"Fred", "email"=>"fred2@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", "fred2@example.com"], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Create (0.4ms)[0m  [1m[32mINSERT INTO "chefs" ("chefname", "email", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?, ?)[0m  [["chefname", "Fred"], ["email", "fred2@example.com"], ["created_at", "2024-01-19 11:03:05.564666"], ["updated_at", "2024-01-19 11:03:05.564666"], ["password_digest", "[FILTERED]"]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (20.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+Completed 500 Internal Server Error in 260ms (ActiveRecord: 21.0ms | Allocations: 6663)
+
+
+  
+NoMethodError (undefined method `chef_path' for #<ChefsController:0x0000000000c5f8>):
+  
+app/controllers/chefs_controller.rb:11:in `create'
+Started GET "/signup" for ::1 at 2024-01-19 16:03:36 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_errors.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1524)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 99)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 31.2ms | Allocations: 21159)
+Completed 200 OK in 39ms (Views: 32.7ms | ActiveRecord: 0.5ms | Allocations: 24969)
+
+
+Started POST "/chefs" for ::1 at 2024-01-19 16:03:49 +0500
+Processing by ChefsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chef"=>{"chefname"=>"john", "email"=>"john@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", "john@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 0.5ms | Allocations: 488)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 2301)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 7801)
+Completed 422 Unprocessable Entity in 256ms (Views: 16.7ms | ActiveRecord: 0.3ms | Allocations: 11432)
+
+
+Started POST "/chefs" for ::1 at 2024-01-19 16:03:54 +0500
+Processing by ChefsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chef"=>{"chefname"=>"john", "email"=>"john@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", "john@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 0.5ms | Allocations: 410)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2156)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 7656)
+Completed 422 Unprocessable Entity in 259ms (Views: 11.8ms | ActiveRecord: 0.3ms | Allocations: 10755)
+
+
+Started POST "/chefs" for ::1 at 2024-01-19 16:04:06 +0500
+Processing by ChefsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chef"=>{"chefname"=>"john", "email"=>"john@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", "john@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Create (0.3ms)[0m  [1m[32mINSERT INTO "chefs" ("chefname", "email", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?, ?)[0m  [["chefname", "john"], ["email", "john@gmail.com"], ["created_at", "2024-01-19 11:04:07.113579"], ["updated_at", "2024-01-19 11:04:07.113579"], ["password_digest", "[FILTERED]"]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (14.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+Completed 500 Internal Server Error in 267ms (ActiveRecord: 15.1ms | Allocations: 3745)
+
+
+  
+NoMethodError (undefined method `chef_path' for #<ChefsController:0x00000000010f18>):
+  
+app/controllers/chefs_controller.rb:11:in `create'
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs"[0m
+  [1m[36mChef Load (0.5ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChef Destroy (0.3ms)[0m  [1m[31mDELETE FROM "chefs" WHERE "chefs"."id" = ?[0m  [["id", 7]]
+  [1m[36mTRANSACTION (15.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs"[0m
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChef Destroy (0.2ms)[0m  [1m[31mDELETE FROM "chefs" WHERE "chefs"."id" = ?[0m  [["id", 6]]
+  [1m[36mTRANSACTION (15.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChef Destroy (0.3ms)[0m  [1m[31mDELETE FROM "chefs" WHERE "chefs"."id" = ?[0m  [["id", 5]]
+  [1m[36mTRANSACTION (16.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs"[0m
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChef Destroy (0.2ms)[0m  [1m[31mDELETE FROM "chefs" WHERE "chefs"."id" = ?[0m  [["id", 4]]
+  [1m[36mTRANSACTION (15.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs"[0m
+Started GET "/signup" for ::1 at 2024-01-19 16:11:16 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_errors.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1526)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 25.2ms | Allocations: 21160)
+Completed 200 OK in 32ms (Views: 26.6ms | ActiveRecord: 0.2ms | Allocations: 24543)
+
+
+Started POST "/chefs" for ::1 at 2024-01-19 16:11:29 +0500
+Processing by ChefsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chef"=>{"chefname"=>"Fred", "email"=>"fred@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", "fred@example.com"], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Create (0.3ms)[0m  [1m[32mINSERT INTO "chefs" ("chefname", "email", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?, ?)[0m  [["chefname", "Fred"], ["email", "fred@example.com"], ["created_at", "2024-01-19 11:11:29.399804"], ["updated_at", "2024-01-19 11:11:29.399804"], ["password_digest", "[FILTERED]"]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (14.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+Redirected to http://localhost:3000/chefs.8
+Completed 302 Found in 315ms (ActiveRecord: 15.4ms | Allocations: 3882)
+
+
+Started GET "/chefs.8" for ::1 at 2024-01-19 16:11:29 +0500
+Processing by ChefsController#show as */*
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered chefs/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 186)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 5951)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms | Allocations: 6215)
+
+
+Started GET "/chefs.8" for ::1 at 2024-01-19 16:11:29 +0500
+Processing by ChefsController#show as */*
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered chefs/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 79)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 101)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 5785)
+Completed 200 OK in 21ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 6046)
+
+
+Started GET "/chefs.8" for ::1 at 2024-01-19 16:12:51 +0500
+Processing by ChefsController#show as */*
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered chefs/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 79)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 5746)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 6008)
+
+
+Started GET "/" for ::1 at 2024-01-19 16:13:00 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 236)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 101)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 6024)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 6671)
+
+
+Started GET "/signup" for ::1 at 2024-01-19 16:13:09 +0500
+Processing by ChefsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/new.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered shared/_errors.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered chefs/new.html.erb within layouts/application (Duration: 10.7ms | Allocations: 1378)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 92)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 53.3ms | Allocations: 6886)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms | Allocations: 7167)
+
+
+Started POST "/chefs" for ::1 at 2024-01-19 16:13:22 +0500
+Processing by ChefsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chef"=>{"chefname"=>"example", "email"=>"example@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", "example@example.com"], ["LIMIT", 1]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mChef Create (0.3ms)[0m  [1m[32mINSERT INTO "chefs" ("chefname", "email", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?, ?)[0m  [["chefname", "example"], ["email", "example@example.com"], ["created_at", "2024-01-19 11:13:22.764574"], ["updated_at", "2024-01-19 11:13:22.764574"], ["password_digest", "[FILTERED]"]]
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (20.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/chefs_controller.rb:9:in `create'
+Redirected to http://localhost:3000/chefs.9
+Completed 302 Found in 263ms (ActiveRecord: 21.0ms | Allocations: 3340)
+
+
+Started GET "/chefs.9" for ::1 at 2024-01-19 16:13:22 +0500
+Processing by ChefsController#show as */*
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered chefs/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 101)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 5768)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 6029)
+
+
+Started GET "/chefs.9" for ::1 at 2024-01-19 16:13:22 +0500
+Processing by ChefsController#show as */*
+  Rendering layout layouts/application.html.erb
+  Rendering chefs/show.html.erb within layouts/application
+  Rendered shared/_page_title.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered chefs/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 79)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 5750)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 6011)
+
+
+Started GET "/chef/8" for ::1 at 2024-01-19 16:13:32 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/chef/8"):
+  
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs"[0m
