@@ -19096,3 +19096,102 @@ Processing by PagesController#home as TURBO_STREAM
 Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 6819)
 
 
+Started GET "/" for ::1 at 2024-01-22 17:36:43 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 221)
+  Rendered layouts/_navigation.html.erb (Duration: 1.8ms | Allocations: 771)
+  Rendered layouts/_messages.html.erb (Duration: 0.6ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 7211)
+Completed 200 OK in 27ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 8184)
+
+
+Started GET "/" for ::1 at 2024-01-22 17:36:56 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 221)
+  Rendered layouts/_navigation.html.erb (Duration: 1.5ms | Allocations: 771)
+  Rendered layouts/_messages.html.erb (Duration: 0.6ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 7224)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 8210)
+
+
+Started GET "/" for ::1 at 2024-01-22 17:41:44 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 221)
+  Rendered layouts/_navigation.html.erb (Duration: 2.0ms | Allocations: 771)
+  Rendered layouts/_messages.html.erb (Duration: 0.9ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | Allocations: 7229)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.0ms | Allocations: 8228)
+
+
+Started GET "/" for ::1 at 2024-01-22 17:52:23 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 6601.6ms | Allocations: 41097)
+Completed 500 Internal Server Error in 6608ms (ActiveRecord: 0.0ms | Allocations: 41764)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /home/developer/Desktop/Visnext_Work/practice_work/myreceipes/app/assets/builds
+  /home/developer/Desktop/Visnext_Work/practice_work/myreceipes/app/assets/config
+  /home/developer/Desktop/Visnext_Work/practice_work/myreceipes/app/assets/images
+  /home/developer/Desktop/Visnext_Work/practice_work/myreceipes/app/assets/stylesheets
+  /home/developer/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/stimulus-rails-1.3.3/app/assets/javascripts
+  /home/developer/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/turbo-rails-1.5.0/app/assets/javascripts
+  /home/developer/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/actiontext-7.0.8/app/assets/javascripts
+  /home/developer/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/actiontext-7.0.8/app/assets/stylesheets
+  /home/developer/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/actioncable-7.0.8/app/assets/javascripts
+  /home/developer/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activestorage-7.0.8/app/assets/javascripts
+  /home/developer/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/actionview-7.0.8/lib/assets/compiled
+  /home/developer/Desktop/Visnext_Work/practice_work/myreceipes/app/javascript
+  /home/developer/Desktop/Visnext_Work/practice_work/myreceipes/vendor/javascript
+  /home/developer/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/popper_js-2.11.8/assets/javascripts
+  /home/developer/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/bootstrap-5.3.2/assets/stylesheets
+  /home/developer/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/bootstrap-5.3.2/assets/javascripts):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/javascript/application.js:2
+app/views/layouts/application.html.erb:10
+Started GET "/" for ::1 at 2024-01-22 17:52:38 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 6.4ms | Allocations: 531)
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 812)
+  Rendered layouts/_messages.html.erb (Duration: 0.6ms | Allocations: 229)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 3952.3ms | Allocations: 350940)
+Completed 200 OK in 3999ms (Views: 3963.9ms | ActiveRecord: 0.0ms | Allocations: 355240)
+
+
+Started GET "/" for ::1 at 2024-01-22 17:55:19 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 55)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 219)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 2077.4ms | Allocations: 99302)
+Completed 200 OK in 2081ms (Views: 2078.8ms | ActiveRecord: 0.0ms | Allocations: 99709)
+
+
