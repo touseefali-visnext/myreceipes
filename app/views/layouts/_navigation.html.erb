@@ -8,11 +8,13 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item"><%= link_to "Chefs", chefs_path, class: "nav-link" %></li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <%= link_to "All Recipes", recipes_path, class: "nav-link" %>
         </li>
-        <li class="nav-item">
-          <%= link_to "New Recipe", new_recipe_path, class: "nav-link" %>
-        </li>
+        <% if logged_in? %>
+          <li class="nav-item">
+            <%= link_to "New Recipe", new_recipe_path, class: "nav-link" %>
+          </li>
+        <% end %>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Recipes
@@ -28,10 +30,21 @@
           <a class="nav-link disabled" aria-disabled="true">Disabled</a>
         </li>
       </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      <% if logged_in? %>
+        <span class="nav-item"><%= link_to "Profile", chef_path(current_chef), class: "nav-link" %></span>
+        <span class="nav-item ms-3"><%= link_to "Edit Profile", edit_chef_path(current_chef), class: "nav-link" %></span>
+        <span class="nav-item ms-3"><%= link_to "Log out", logout_path, data: { turbo_method: :delete }, class: "nav-link" %></span>
+        <%# <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expand="false">
+            <%= current_chef.chefname's Profile %>
+          <%# </button> %>
+          <%# <ul class="dropdown-menu"> %>
+            <%# <li>My new dropdown</li> %>
+          <%# </ul> %>
+        <%# </div> %> 
+      <% else %>
+        <span class="nav-item"><%= link_to "Log in", login_path, class: "nav-link" %></span>
+      <% end %>
     </div>
   </div>
 </nav>

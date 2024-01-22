@@ -7,6 +7,7 @@ class RecipesEditTest < ActionDispatch::IntegrationTest
   end
 
   test "reject invalid recipe update" do
+    sign_in_as(@user, "password")
     get edit_recipe_path(@recipe)
     assert_template "recipes/edit"
     patch recipe_path(@recipe), params: { recipe: { name: " ", description: "some description" } }
@@ -16,6 +17,7 @@ class RecipesEditTest < ActionDispatch::IntegrationTest
   end
 
   test "successfully edit recipe" do
+    sign_in_as(@user, "password")
     get edit_recipe_path(@recipe)
     assert_template "recipes/edit"
     updated_name = "Updated recipe name"
