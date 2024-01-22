@@ -27,8 +27,13 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          <%= link_to "All Ingredients", ingredients_path, class: "nav-link" %>
         </li>
+        <% if logged_in? && current_chef.admin? %>
+          <li class="nav-item">
+            <%= link_to "New Ingredients", new_ingredient_path, class: "nav-link" %>
+          </li>
+        <% end %>
       </ul>
       <% if logged_in? %>
         <span class="nav-item"><%= link_to "Profile", chef_path(current_chef), class: "nav-link" %> <%= "Admin" if current_chef.admin? %></span>
@@ -45,6 +50,7 @@
       <% else %>
         <span class="nav-item"><%= link_to "Log in", login_path, class: "nav-link" %></span>
       <% end %>
+
     </div>
   </div>
 </nav>
